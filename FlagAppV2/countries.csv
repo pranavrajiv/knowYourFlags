@@ -1,5 +1,4 @@
 Afghanistan,af,afg
-Oland Islands,ax,ala
 Albania,al,alb
 Algeria,dz,dza
 American Samoa,as,asm
@@ -24,8 +23,8 @@ Belize,bz,blz
 Benin,bj,ben
 Bermuda,bm,bmu
 Bhutan,bt,btn
-Bolivia (Plurinational State of),bo,bol
-"Bonaire, Sint Eustatius and Saba",bq,bes
+Bolivia,bo,bol
+Bonaire,bq,bes
 Bosnia and Herzegovina,ba,bih
 Botswana,bw,bwa
 Bouvet Island,bv,bvt
@@ -52,10 +51,10 @@ Congo,cg,cog
 Congo (Democratic Republic of the),cd,cod
 Cook Islands,ck,cok
 Costa Rica,cr,cri
-C√¥te d'Ivoire,ci,civ
+Ivory Coast,ci,civ
 Croatia,hr,hrv
 Cuba,cu,cub
-Cura√ßao,cw,cuw
+Curacao,cw,cuw
 Cyprus,cy,cyp
 Czechia,cz,cze
 Denmark,dk,dnk
@@ -164,10 +163,11 @@ Niue,nu,niu
 Norfolk Island,nf,nfk
 Northern Mariana Islands,mp,mnp
 Norway,no,nor
+Oland Islands,ax,ala
 Oman,om,omn
 Pakistan,pk,pak
 Palau,pw,plw
-"Palestine, State of",ps,pse
+Palestine,ps,pse
 Panama,pa,pan
 Papua New Guinea,pg,png
 Paraguay,py,pry
@@ -183,7 +183,7 @@ Romania,ro,rou
 Russian Federation,ru,rus
 Rwanda,rw,rwa
 Saint Barthelemy,bl,blm
-"Saint Helena, Ascension and Tristan da Cunha",sh,shn
+Saint Helena,sh,shn
 Saint Kitts and Nevis,kn,kna
 Saint Lucia,lc,lca
 Saint Martin (French part),mf,maf
@@ -215,9 +215,9 @@ Swaziland,sz,swz
 Sweden,se,swe
 Switzerland,ch,che
 Syrian Arab Republic,sy,syr
-"Taiwan, Province of China",tw,twn
+Taiwan,tw,twn
 Tajikistan,tj,tjk
-"Tanzania, United Republic of",tz,tza
+Tanzania,tz,tza
 Thailand,th,tha
 Timor-Leste,tl,tls
 Togo,tg,tgo
