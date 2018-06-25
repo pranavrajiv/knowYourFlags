@@ -13,6 +13,9 @@ import UIKit
 var flags = [String]()
 
 
+var counToFlagDict = [String: String]()
+
+
 var indexOfFlag = 0
 
 class secondViewController: UITableViewController {
@@ -26,13 +29,26 @@ class secondViewController: UITableViewController {
         data = cleanRows(file: data!)
         let csvRows = csv(data: data!)
         
-        
+     
         for itemm in csvRows
         {
             //print(itemm,"\n\n")
-            let index = itemm[0].index(of: ",")!
-            let substr = itemm[0].prefix(upTo: index)
+            var index = itemm[0].index(of: ",")!
+            var substr = itemm[0].prefix(upTo: index)
             flags.append(String(substr))
+            
+            //stores the name of the country
+            let temp  = String(substr)
+            
+            var temp2 = itemm[0][index...]
+            //remove the coma after the actual country name
+            temp2.remove(at: temp2.startIndex)
+            
+
+            index = temp2.index(of: ",")!
+            substr = temp2.prefix(upTo: index)
+            counToFlagDict[temp] = String(substr)
+            print("substr= ",counToFlagDict[temp])
         }
         
         
