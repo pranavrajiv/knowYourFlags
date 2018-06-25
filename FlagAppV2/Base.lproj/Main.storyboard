@@ -39,7 +39,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="know more"/>
                                 <connections>
-                                    <segue destination="lOs-t5-vRh" kind="show" id="UMW-18-mCe"/>
+                                    <segue destination="lOs-t5-vRh" kind="show" identifier="" id="UMW-18-mCe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXz-w7-Yeb">
@@ -69,16 +69,28 @@
             </objects>
             <point key="canvasLocation" x="1438" y="-512"/>
         </scene>
-        <!--View Controller Third-->
+        <!--Third View Controller-->
         <scene sceneID="ujN-01-ONY">
             <objects>
-                <viewController id="lOs-t5-vRh" customClass="ViewControllerThird" customModule="FlagAppV2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lOs-t5-vRh" customClass="ThirdViewController" customModule="FlagAppV2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wqg-iV-eW4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Up4-J5-e5S">
+                                <rect key="frame" x="30" y="118" width="268" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WXi-Ot-Qrj"/>
                     </view>
+                    <connections>
+                        <outlet property="selectedItem" destination="Up4-J5-e5S" id="XaX-kB-tJu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWt-gx-iiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -120,6 +132,9 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="drs-HB-CQa"/>
+                    <connections>
+                        <segue destination="lOs-t5-vRh" kind="show" identifier="segue" id="TFQ-cJ-zv7"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PfR-MJ-y8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -174,4 +189,7 @@
     <resources>
         <image name="first" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="TFQ-cJ-zv7"/>
+    </inferredMetricsTieBreakers>
 </document>

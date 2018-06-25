@@ -15,6 +15,7 @@
 		811B3F3F20E168DD00619772 /* flagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F3E20E168DD00619772 /* flagTableViewController.swift */; };
 		811B3F4120E16DC200619772 /* flagItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */; };
 		811B3F4320E1705900619772 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F4220E1705900619772 /* secondViewController.swift */; };
+		811B3F4520E181BE00619772 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F4420E181BE00619772 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		811B3F3E20E168DD00619772 /* flagTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagTableViewController.swift; sourceTree = "<group>"; };
 		811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagItemTableViewCell.swift; sourceTree = "<group>"; };
 		811B3F4220E1705900619772 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		811B3F4420E181BE00619772 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
 				811B3F4220E1705900619772 /* secondViewController.swift */,
+				811B3F4420E181BE00619772 /* ThirdViewController.swift */,
 				811B3F2A20E0AB6E00619772 /* AppDelegate.swift */,
 				811B3F2C20E0AB6E00619772 /* FirstViewController.swift */,
 				811B3F3020E0AB6E00619772 /* Main.storyboard */,
@@ -148,6 +151,7 @@
 				811B3F2B20E0AB6E00619772 /* AppDelegate.swift in Sources */,
 				811B3F4120E16DC200619772 /* flagItemTableViewCell.swift in Sources */,
 				811B3F4320E1705900619772 /* secondViewController.swift in Sources */,
+				811B3F4520E181BE00619772 /* ThirdViewController.swift in Sources */,
 				811B3F2D20E0AB6E00619772 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
