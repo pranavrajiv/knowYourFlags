@@ -8,13 +8,35 @@
 
 import UIKit
 
-let flags = ["usa","india","india","usa","india","usa","india","usa","india","usa","india","usa","india","usa","india","usa","india","usa"]
+//let flags = ["usa","india","india","usa","india","usa","india","usa","india","usa","india","usa","india","usa","india","usa","india","usa"]
+
+var flags = [String]()
+
+
 var indexOfFlag = 0
 
 class secondViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        var data = readDataFromCSV(fileName: "countries", fileType: "csv")
+        data = cleanRows(file: data!)
+        let csvRows = csv(data: data!)
+        
+        
+        for itemm in csvRows
+        {
+            //print(itemm,"\n\n")
+            let index = itemm[0].index(of: ",")!
+            let substr = itemm[0].prefix(upTo: index)
+            flags.append(String(substr))
+        }
+        
+        
+        
         //loadSampleFlags()
         
         
@@ -38,8 +60,58 @@ class secondViewController: UITableViewController {
         return 1
     }
 
+    
+    func readDataFromCSV(fileName:String, fileType: String)-> String!{
+        guard let filepath = Bundle.main.path(forResource: fileName, ofType: fileType)
+            else {
+                return nil
+        }
+        do {
+            var contents = try String(contentsOfFile: filepath, encoding: .utf8)
+            contents = cleanRows(file: contents)
+            return contents
+        } catch {
+            print("File Read Error for file \(filepath)")
+            return nil
+        }
+    }
+
+    
+    
+    
+    func cleanRows(file:String)->String{
+        var cleanFile = file
+        cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
+        cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
+        //        cleanFile = cleanFile.replacingOccurrences(of: ";;", with: "")
+        //        cleanFile = cleanFile.replacingOccurrences(of: ";\n", with: "")
+        return cleanFile
+    }
+    
+    func csv(data: String) -> [[String]]
+    {
+        var result: [[String]] = []
+        let rows = data.components(separatedBy: "\n")
+        for row in rows {
+            let columns = row.components(separatedBy: ";")
+            result.append(columns)
+        }
+        return result
+    }
+
+    
+    
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        
+        
+        
+        
+        
+        
+        
+
         return (flags.count)
     }
   
@@ -59,7 +131,6 @@ class secondViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
         indexOfFlag = indexPath.row
-        print("indexOfFlag = ", indexOfFlag)
         performSegue(withIdentifier: "segue", sender: self)
     }
 }
