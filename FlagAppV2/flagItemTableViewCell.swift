@@ -11,6 +11,7 @@ import UIKit
 class flagItemTableViewCell: UITableViewCell {
 
     @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var myImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

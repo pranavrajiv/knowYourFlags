@@ -53,7 +53,7 @@ class secondViewController: UITableViewController {
                 index = temp2.index(of: ",")!
                 substr = temp2.prefix(upTo: index)
                 counToFlagDict[temp] = String(substr)
-                print("substr= ",counToFlagDict[temp])
+                //print("substr= ",counToFlagDict[temp])
             }
             count = 1
         }
@@ -141,7 +141,43 @@ class secondViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as!  flagItemTableViewCell
 
-       cell.myLabel.text =  flags[indexPath.row]
+        cell.myLabel.text =  flags[indexPath.row]
+        cell.myImage.image = UIImage(named: counToFlagDict[flags[indexPath.row]]! + ".png")
+       
+        
+        
+        //let fileManager = FileManager.default
+        
+        // Get current directory path
+        
+        //let path = fileManager.currentDirectoryPath
+        //print(path)
+        
+        
+        //let imagePath = "/flags/" + counToFlagDict[flags[indexPath.row]]! + ".png"
+        //print(imagePath)
+        
+       
+        
+        
+        /*
+        let nsDocumentDirectory = FileManager.SearchPathDirectory.documentDirectory
+        let nsUserDomainMask    = FileManager.SearchPathDomainMask.userDomainMask
+        let paths               = NSSearchPathForDirectoriesInDomains(nsDocumentDirectory, nsUserDomainMask, true)
+        if let dirPath          = paths.first
+        {
+            let imageURL = URL(fileURLWithPath: dirPath).appendingPathComponent("/flags/" + counToFlagDict[flags[indexPath.row]]! + ".png")
+            print (nsDocumentDirectory)
+            let image    = UIImage(contentsOfFile: imageURL.path)
+            // Do whatever you want with the image
+            cell.myImage.image = image
+        }
+        
+        
+        */
+        
+        
+        
         
         // Configure the cell...
 
