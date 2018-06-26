@@ -125,14 +125,6 @@ class secondViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        
-        
-        
-        
-        
-        
-        
-
         return (flags.count)
     }
   
@@ -143,38 +135,6 @@ class secondViewController: UITableViewController {
 
         cell.myLabel.text =  flags[indexPath.row]
         cell.myImage.image = UIImage(named: counToFlagDict[flags[indexPath.row]]! + ".png")
-       
-        
-        
-        //let fileManager = FileManager.default
-        
-        // Get current directory path
-        
-        //let path = fileManager.currentDirectoryPath
-        //print(path)
-        
-        
-        //let imagePath = "/flags/" + counToFlagDict[flags[indexPath.row]]! + ".png"
-        //print(imagePath)
-        
-       
-        
-        
-        /*
-        let nsDocumentDirectory = FileManager.SearchPathDirectory.documentDirectory
-        let nsUserDomainMask    = FileManager.SearchPathDomainMask.userDomainMask
-        let paths               = NSSearchPathForDirectoriesInDomains(nsDocumentDirectory, nsUserDomainMask, true)
-        if let dirPath          = paths.first
-        {
-            let imageURL = URL(fileURLWithPath: dirPath).appendingPathComponent("/flags/" + counToFlagDict[flags[indexPath.row]]! + ".png")
-            print (nsDocumentDirectory)
-            let image    = UIImage(contentsOfFile: imageURL.path)
-            // Do whatever you want with the image
-            cell.myImage.image = image
-        }
-        
-        
-        */
         
         
         

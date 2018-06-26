@@ -12,11 +12,12 @@ class ThirdViewController: UIViewController {
 
     @IBOutlet weak var selectedItem: UILabel!
     
+    @IBOutlet weak var selectedImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         selectedItem.text = flags[indexOfFlag]
-       
+        selectedImage.image = UIImage(named: counToFlagDict[flags[indexOfFlag]]! + ".png")
         
         
         // Do any additional setup after loading the view.
