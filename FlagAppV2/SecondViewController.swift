@@ -29,29 +29,34 @@ class secondViewController: UITableViewController {
         data = cleanRows(file: data!)
         let csvRows = csv(data: data!)
         
-     
+        //variable that makes sure that the header in the csv file is not included
+        var count = 0
+        
         for itemm in csvRows
         {
-            //print(itemm,"\n\n")
-            var index = itemm[0].index(of: ",")!
-            var substr = itemm[0].prefix(upTo: index)
-            flags.append(String(substr))
-            
-            //stores the name of the country
-            let temp  = String(substr)
-            
-            var temp2 = itemm[0][index...]
-            //remove the coma after the actual country name
-            temp2.remove(at: temp2.startIndex)
-            
+            //removes the headers
+            if(count != 0)
+            {
+                //print(itemm,"\n\n")
+                var index = itemm[0].index(of: ",")!
+                var substr = itemm[0].prefix(upTo: index)
+                flags.append(String(substr))
+                
+                //stores the name of the country
+                let temp  = String(substr)
+                
+                var temp2 = itemm[0][index...]
+                //remove the coma after the actual country name
+                temp2.remove(at: temp2.startIndex)
+                
 
-            index = temp2.index(of: ",")!
-            substr = temp2.prefix(upTo: index)
-            counToFlagDict[temp] = String(substr)
-            print("substr= ",counToFlagDict[temp])
+                index = temp2.index(of: ",")!
+                substr = temp2.prefix(upTo: index)
+                counToFlagDict[temp] = String(substr)
+                print("substr= ",counToFlagDict[temp])
+            }
+            count = 1
         }
-        
-        
         
         //loadSampleFlags()
         
