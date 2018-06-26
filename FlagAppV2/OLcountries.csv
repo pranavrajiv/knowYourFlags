@@ -1,249 +1,250 @@
-Afghanistan,af,afg
-Albania,al,alb
-Algeria,dz,dza
-American Samoa,as,asm
-Andorra,ad,and
-Angola,ao,ago
-Anguilla,ai,aia
-Antarctica,aq,ata
-Antigua and Barbuda,ag,atg
-Argentina,ar,arg
-Armenia,am,arm
-Aruba,aw,abw
-Australia,au,aus
-Austria,at,aut
-Azerbaijan,az,aze
-Bahamas,bs,bhs
-Bahrain,bh,bhr
-Bangladesh,bd,bgd
-Barbados,bb,brb
-Belarus,by,blr
-Belgium,be,bel
-Belize,bz,blz
-Benin,bj,ben
-Bermuda,bm,bmu
-Bhutan,bt,btn
-Bolivia,bo,bol
-Bonaire,bq,bes
-Bosnia and Herzegovina,ba,bih
-Botswana,bw,bwa
-Bouvet Island,bv,bvt
-Brazil,br,bra
-British Indian Ocean Territory,io,iot
-Brunei Darussalam,bn,brn
-Bulgaria,bg,bgr
-Burkina Faso,bf,bfa
-Burundi,bi,bdi
-Cabo Verde,cv,cpv
-Cambodia,kh,khm
-Cameroon,cm,cmr
-Canada,ca,can
-Cayman Islands,ky,cym
-Central African Republic,cf,caf
-Chad,td,tcd
-Chile,cl,chl
-China,cn,chn
-Christmas Island,cx,cxr
-Cocos (Keeling) Islands,cc,cck
-Colombia,co,col
-Comoros,km,com
-Congo,cg,cog
-Congo (Democratic Republic of the),cd,cod
-Cook Islands,ck,cok
-Costa Rica,cr,cri
-Ivory Coast,ci,civ
-Croatia,hr,hrv
-Cuba,cu,cub
-Curacao,cw,cuw
-Cyprus,cy,cyp
-Czechia,cz,cze
-Denmark,dk,dnk
-Djibouti,dj,dji
-Dominica,dm,dma
-Dominican Republic,do,dom
-Ecuador,ec,ecu
-Egypt,eg,egy
-El Salvador,sv,slv
-Equatorial Guinea,gq,gnq
-Eritrea,er,eri
-Estonia,ee,est
-Ethiopia,et,eth
-Falkland Islands (Malvinas),fk,flk
-Faroe Islands,fo,fro
-Fiji,fj,fji
-Finland,fi,fin
-France,fr,fra
-French Guiana,gf,guf
-French Polynesia,pf,pyf
-French Southern Territories,tf,atf
-Gabon,ga,gab
-Gambia,gm,gmb
-Georgia,ge,geo
-Germany,de,deu
-Ghana,gh,gha
-Gibraltar,gi,gib
-Greece,gr,grc
-Greenland,gl,grl
-Grenada,gd,grd
-Guadeloupe,gp,glp
-Guam,gu,gum
-Guatemala,gt,gtm
-Guernsey,gg,ggy
-Guinea,gn,gin
-Guinea-Bissau,gw,gnb
-Guyana,gy,guy
-Haiti,ht,hti
-Heard Island and McDonald Islands,hm,hmd
-Holy See,va,vat
-Honduras,hn,hnd
-Hong Kong,hk,hkg
-Hungary,hu,hun
-Iceland,is,isl
-India,in,ind
-Indonesia,id,idn
-Iran (Islamic Republic of),ir,irn
-Iraq,iq,irq
-Ireland,ie,irl
-Isle of Man,im,imn
-Israel,il,isr
-Italy,it,ita
-Jamaica,jm,jam
-Japan,jp,jpn
-Jersey,je,jey
-Jordan,jo,jor
-Kazakhstan,kz,kaz
-Kenya,ke,ken
-Kiribati,ki,kir
-Korea (Democratic People's Republic of),kp,prk
-Korea (Republic of),kr,kor
-Kuwait,kw,kwt
-Kyrgyzstan,kg,kgz
-Lao People's Democratic Republic,la,lao
-Latvia,lv,lva
-Lebanon,lb,lbn
-Lesotho,ls,lso
-Liberia,lr,lbr
-Libya,ly,lby
-Liechtenstein,li,lie
-Lithuania,lt,ltu
-Luxembourg,lu,lux
-Macao,mo,mac
-Macedonia (the former Yugoslav Republic of),mk,mkd
-Madagascar,mg,mdg
-Malawi,mw,mwi
-Malaysia,my,mys
-Maldives,mv,mdv
-Mali,ml,mli
-Malta,mt,mlt
-Marshall Islands,mh,mhl
-Martinique,mq,mtq
-Mauritania,mr,mrt
-Mauritius,mu,mus
-Mayotte,yt,myt
-Mexico,mx,mex
-Micronesia (Federated States of),fm,fsm
-Moldova (Republic of),md,mda
-Monaco,mc,mco
-Mongolia,mn,mng
-Montenegro,me,mne
-Montserrat,ms,msr
-Morocco,ma,mar
-Mozambique,mz,moz
-Myanmar,mm,mmr
-Namibia,na,nam
-Nauru,nr,nru
-Nepal,np,npl
-Netherlands,nl,nld
-New Caledonia,nc,ncl
-New Zealand,nz,nzl
-Nicaragua,ni,nic
-Niger,ne,ner
-Nigeria,ng,nga
-Niue,nu,niu
-Norfolk Island,nf,nfk
-Northern Mariana Islands,mp,mnp
-Norway,no,nor
-Oland Islands,ax,ala
-Oman,om,omn
-Pakistan,pk,pak
-Palau,pw,plw
-Palestine,ps,pse
-Panama,pa,pan
-Papua New Guinea,pg,png
-Paraguay,py,pry
-Peru,pe,per
-Philippines,ph,phl
-Pitcairn,pn,pcn
-Poland,pl,pol
-Portugal,pt,prt
-Puerto Rico,pr,pri
-Qatar,qa,qat
-Reunion,re,reu
-Romania,ro,rou
-Russian Federation,ru,rus
-Rwanda,rw,rwa
-Saint Barthelemy,bl,blm
-Saint Helena,sh,shn
-Saint Kitts and Nevis,kn,kna
-Saint Lucia,lc,lca
-Saint Martin (French part),mf,maf
-Saint Pierre and Miquelon,pm,spm
-Saint Vincent and the Grenadines,vc,vct
-Samoa,ws,wsm
-San Marino,sm,smr
-Sao Tome and Principe,st,stp
-Saudi Arabia,sa,sau
-Senegal,sn,sen
-Serbia,rs,srb
-Seychelles,sc,syc
-Sierra Leone,sl,sle
-Singapore,sg,sgp
-Sint Maarten (Dutch part),sx,sxm
-Slovakia,sk,svk
-Slovenia,si,svn
-Solomon Islands,sb,slb
-Somalia,so,som
-South Africa,za,zaf
-South Georgia and the South Sandwich Islands,gs,sgs
-South Sudan,ss,ssd
-Spain,es,esp
-Sri Lanka,lk,lka
-Sudan,sd,sdn
-Suriname,sr,sur
-Svalbard and Jan Mayen,sj,sjm
-Swaziland,sz,swz
-Sweden,se,swe
-Switzerland,ch,che
-Syrian Arab Republic,sy,syr
-Taiwan,tw,twn
-Tajikistan,tj,tjk
-Tanzania,tz,tza
-Thailand,th,tha
-Timor-Leste,tl,tls
-Togo,tg,tgo
-Tokelau,tk,tkl
-Tonga,to,ton
-Trinidad and Tobago,tt,tto
-Tunisia,tn,tun
-Turkey,tr,tur
-Turkmenistan,tm,tkm
-Turks and Caicos Islands,tc,tca
-Tuvalu,tv,tuv
-Uganda,ug,uga
-Ukraine,ua,ukr
-United Arab Emirates,ae,are
-United Kingdom of Great Britain and Northern Ireland,gb,gbr
-United States of America,us,usa
-United States Minor Outlying Islands,um,umi
-Uruguay,uy,ury
-Uzbekistan,uz,uzb
-Vanuatu,vu,vut
-Venezuela (Bolivarian Republic of),ve,ven
-Viet Nam,vn,vnm
-Virgin Islands (British),vg,vgb
-Virgin Islands (U.S.),vi,vir
-Wallis and Futuna,wf,wlf
-Western Sahara,eh,esh
-Yemen,ye,yem
-Zambia,zm,zmb
-Zimbabwe,zw,zwe
+country,alpha1,alpha2,population,region,income
+Afghanistan,af,afg,28809167,South Asia,Low income
+Albania,al,alb,2904780,Europe & Central Asia,Upper middle income
+Algeria,dz,dza,36717132,Middle East & North Africa,Upper middle income
+American Samoa,as,asm,55316,East Asia & Pacific,Upper middle income
+Andorra,ad,and,82326,Europe & Central Asia,High income
+Angola,ao,ago,21942296,Sub-Saharan Africa,Lower middle income
+Anguilla,ai,aia,,,
+Antarctica,aq,ata,,,
+Antigua and Barbuda,ag,atg,88152,Latin America & Caribbean,Upper middle income
+Argentina,ar,arg,41655616,Latin America & Caribbean,Upper middle income
+Armenia,am,arm,2967984,Europe & Central Asia,Lower middle income
+Aruba,aw,abw,101936,Latin America & Caribbean,High income
+Australia,au,aus,22340024,East Asia & Pacific,High income: OECD
+Austria,at,aut,8391643,Europe & Central Asia,High income: OECD
+Azerbaijan,az,aze,9173082,Europe & Central Asia,Upper middle income
+Bahamas,bs,bhs,366711,Latin America & Caribbean,High income
+Bahrain,bh,bhr,1306014,Middle East & North Africa,High income
+Bangladesh,bd,bgd,153405612,South Asia,Low income
+Barbados,bb,brb,280602,Latin America & Caribbean,High income
+Belarus,by,blr,9473000,Europe & Central Asia,Upper middle income
+Belgium,be,bel,11047744,Europe & Central Asia,High income: OECD
+Belize,bz,blz,329193,Latin America & Caribbean,Lower middle income
+Benin,bj,ben,9779391,Sub-Saharan Africa,Low income
+Bermuda,bm,bmu,64564,North America,High income
+Bhutan,bt,btn,732246,South Asia,Lower middle income
+Bolivia,bo,bol,10078238,Latin America & Caribbean,Lower middle income
+Bonaire,bq,bes,,,
+Bosnia and Herzegovina,ba,bih,3832310,Europe & Central Asia,Upper middle income
+Botswana,bw,bwa,2089706,Sub-Saharan Africa,Upper middle income
+Bouvet Island,bv,bvt,,,
+Brazil,br,bra,200517584,Latin America & Caribbean,Upper middle income
+British Indian Ocean Territory,io,iot,,,
+Brunei Darussalam,bn,brn,399443,East Asia & Pacific,High income
+Bulgaria,bg,bgr,7348328,Europe & Central Asia,Upper middle income
+Burkina Faso,bf,bfa,16106851,Sub-Saharan Africa,Low income
+Burundi,bi,bdi,9790151,Sub-Saharan Africa,Low income
+Cabo Verde,cv,cpv,,,
+Cambodia,kh,khm,14593099,East Asia & Pacific,Low income
+Cameroon,cm,cmr,21119065,Sub-Saharan Africa,Lower middle income
+Canada,ca,can,34342780,North America,High income: OECD
+Cayman Islands,ky,cym,56580,Latin America & Caribbean,High income
+Central African Republic,cf,caf,4530903,Sub-Saharan Africa,Low income
+Chad,td,tcd,12298512,Sub-Saharan Africa,Low income
+Chile,cl,chl,17201305,Latin America & Caribbean,Upper middle income
+China,cn,chn,1344130000,East Asia & Pacific,Upper middle income
+Christmas Island,cx,cxr,,,
+Cocos (Keeling) Islands,cc,cck,,,
+Colombia,co,col,46406446,Latin America & Caribbean,Upper middle income
+Comoros,km,com,715972,Sub-Saharan Africa,Low income
+Congo,cg,cog,68087376,Sub-Saharan Africa,Low income
+Congo (Democratic Republic of the),cd,cod,,,
+Cook Islands,ck,cok,,,
+Costa Rica,cr,cri,4600487,Latin America & Caribbean,Upper middle income
+Ivory Coast,ci,civ,,,
+Croatia,hr,hrv,4280622,Europe & Central Asia,High income
+Cuba,cu,cub,11323570,Latin America & Caribbean,Upper middle income
+Curacao,cw,cuw,150831,Latin America & Caribbean,High income
+Cyprus,cy,cyp,1116644,Europe & Central Asia,High income
+Czechia,cz,cze,,,
+Denmark,dk,dnk,5570572,Europe & Central Asia,High income: OECD
+Djibouti,dj,dji,841802,Middle East & North Africa,Lower middle income
+Dominica,dm,dma,71402,Latin America & Caribbean,Upper middle income
+Dominican Republic,do,dom,10027140,Latin America & Caribbean,Upper middle income
+Ecuador,ec,ecu,15177280,Latin America & Caribbean,Upper middle income
+Egypt,eg,egy,83787634,Middle East & North Africa,Lower middle income
+El Salvador,sv,slv,6055208,Latin America & Caribbean,Lower middle income
+Equatorial Guinea,gq,gnq,750918,Sub-Saharan Africa,High income
+Eritrea,er,eri,4789568,Sub-Saharan Africa,Low income
+Estonia,ee,est,1327439,Europe & Central Asia,High income: OECD
+Ethiopia,et,eth,89858696,Sub-Saharan Africa,Low income
+Falkland Islands (Malvinas),fk,flk,,,
+Faroe Islands,fo,fro,,,
+Fiji,fj,fji,867327,East Asia & Pacific,Lower middle income
+Finland,fi,fin,5388272,Europe & Central Asia,High income: OECD
+France,fr,fra,65342776,Europe & Central Asia,High income: OECD
+French Guiana,gf,guf,,,
+French Polynesia,pf,pyf,270862,East Asia & Pacific,High income
+French Southern Territories,tf,atf,,,
+Gabon,ga,gab,1577298,Sub-Saharan Africa,Upper middle income
+Gambia,gm,gmb,1749099,Sub-Saharan Africa,Low income
+Georgia,ge,geo,3875000,Europe & Central Asia,Lower middle income
+Germany,de,deu,81797673,Europe & Central Asia,High income: OECD
+Ghana,gh,gha,24928503,Sub-Saharan Africa,Lower middle income
+Gibraltar,gi,gib,31067,Europe & Central Asia,High income
+Greece,gr,grc,11104899,Europe & Central Asia,High income: OECD
+Greenland,gl,grl,56890,Europe & Central Asia,High income
+Grenada,gd,grd,105070,Latin America & Caribbean,Upper middle income
+Guadeloupe,gp,glp,,,
+Guam,gu,gum,160858,East Asia & Pacific,High income
+Guatemala,gt,gtm,15049280,Latin America & Caribbean,Lower middle income
+Guernsey,gg,ggy,,,
+Guinea,gn,gin,11316351,Sub-Saharan Africa,Low income
+Guinea-Bissau,gw,gnb,1673509,Sub-Saharan Africa,Low income
+Guyana,gy,guy,755883,Latin America & Caribbean,Lower middle income
+Haiti,ht,hti,10144890,Latin America & Caribbean,Low income
+Heard Island and McDonald Islands,hm,hmd,,,
+Holy See,va,vat,,,
+Honduras,hn,hnd,7621414,Latin America & Caribbean,Lower middle income
+Hong Kong,hk,hkg,7071600,East Asia & Pacific,High income
+Hungary,hu,hun,9971727,Europe & Central Asia,High income: OECD
+Iceland,is,isl,319014,Europe & Central Asia,High income: OECD
+India,in,ind,1247446011,South Asia,Lower middle income
+Indonesia,id,idn,244808254,East Asia & Pacific,Lower middle income
+Iran (Islamic Republic of),ir,irn,,,
+Iraq,iq,irq,31867758,Middle East & North Africa,Lower middle income
+Ireland,ie,irl,4576794,Europe & Central Asia,High income: OECD
+Isle of Man,im,imn,85069,Europe & Central Asia,High income
+Israel,il,isr,7765800,Middle East & North Africa,High income: OECD
+Italy,it,ita,59379449,Europe & Central Asia,High income: OECD
+Jamaica,jm,jam,2699838,Latin America & Caribbean,Upper middle income
+Japan,jp,jpn,127817277,East Asia & Pacific,High income: OECD
+Jersey,je,jey,,,
+Jordan,jo,jor,6760371,Middle East & North Africa,Upper middle income
+Kazakhstan,kz,kaz,16556600,Europe & Central Asia,Upper middle income
+Kenya,ke,ken,41419954,Sub-Saharan Africa,Low income
+Kiribati,ki,kir,104662,East Asia & Pacific,Lower middle income
+Korea (Democratic People's Republic of),kp,prk,,,
+Korea (Republic of),kr,kor,,,
+Kuwait,kw,kwt,3239181,Middle East & North Africa,High income
+Kyrgyzstan,kg,kgz,,,
+Lao People's Democratic Republic,la,lao,,,
+Latvia,lv,lva,2059709,Europe & Central Asia,Upper middle income
+Lebanon,lb,lbn,4591698,Middle East & North Africa,Upper middle income
+Lesotho,ls,lso,2032950,Sub-Saharan Africa,Lower middle income
+Liberia,lr,lbr,4079574,Sub-Saharan Africa,Low income
+Libya,ly,lby,6288652,Middle East & North Africa,Upper middle income
+Liechtenstein,li,lie,36537,Europe & Central Asia,High income
+Lithuania,lt,ltu,3028115,Europe & Central Asia,Upper middle income
+Luxembourg,lu,lux,518347,Europe & Central Asia,High income: OECD
+Macao,mo,mac,546682,East Asia & Pacific,High income
+Macedonia (the former Yugoslav Republic of),mk,mkd,,,
+Madagascar,mg,mdg,21678867,Sub-Saharan Africa,Low income
+Malawi,mw,mwi,15226813,Sub-Saharan Africa,Low income
+Malaysia,my,mys,28572970,East Asia & Pacific,Upper middle income
+Maldives,mv,mdv,377000,South Asia,Upper middle income
+Mali,ml,mli,15639115,Sub-Saharan Africa,Low income
+Malta,mt,mlt,416268,Middle East & North Africa,High income
+Marshall Islands,mh,mhl,52541,East Asia & Pacific,Lower middle income
+Martinique,mq,mtq,,,
+Mauritania,mr,mrt,3683221,Sub-Saharan Africa,Lower middle income
+Mauritius,mu,mus,1252404,Sub-Saharan Africa,Upper middle income
+Mayotte,yt,myt,,,
+Mexico,mx,mex,120365271,Latin America & Caribbean,Upper middle income
+Micronesia (Federated States of),fm,fsm,,,
+Moldova (Republic of),md,mda,,,
+Monaco,mc,mco,37189,Europe & Central Asia,High income
+Mongolia,mn,mng,2759074,East Asia & Pacific,Lower middle income
+Montenegro,me,mne,620079,Europe & Central Asia,Upper middle income
+Montserrat,ms,msr,,,
+Morocco,ma,mar,32531964,Middle East & North Africa,Lower middle income
+Mozambique,mz,moz,25016921,Sub-Saharan Africa,Low income
+Myanmar,mm,mmr,52125411,East Asia & Pacific,Low income
+Namibia,na,nam,2240161,Sub-Saharan Africa,Upper middle income
+Nauru,nr,nru,,,
+Nepal,np,npl,27179237,South Asia,Low income
+Netherlands,nl,nld,16693074,Europe & Central Asia,High income: OECD
+New Caledonia,nc,ncl,254000,East Asia & Pacific,High income
+New Zealand,nz,nzl,4384000,East Asia & Pacific,High income: OECD
+Nicaragua,ni,nic,5807787,Latin America & Caribbean,Lower middle income
+Niger,ne,ner,16946485,Sub-Saharan Africa,Low income
+Nigeria,ng,nga,163770669,Sub-Saharan Africa,Lower middle income
+Niue,nu,niu,,,
+Norfolk Island,nf,nfk,,,
+Northern Mariana Islands,mp,mnp,53234,East Asia & Pacific,High income
+Norway,no,nor,4953088,Europe & Central Asia,High income: OECD
+Oland Islands,ax,ala,,,
+Oman,om,omn,3210003,Middle East & North Africa,High income
+Pakistan,pk,pak,173669648,South Asia,Lower middle income
+Palau,pw,plw,20606,East Asia & Pacific,Upper middle income
+Palestine,ps,pse,,,
+Panama,pa,pan,3681979,Latin America & Caribbean,Upper middle income
+Papua New Guinea,pg,png,7001172,East Asia & Pacific,Lower middle income
+Paraguay,py,pry,6293763,Latin America & Caribbean,Lower middle income
+Peru,pe,per,29759891,Latin America & Caribbean,Upper middle income
+Philippines,ph,phl,94501233,East Asia & Pacific,Lower middle income
+Pitcairn,pn,pcn,,,
+Poland,pl,pol,38063255,Europe & Central Asia,High income: OECD
+Portugal,pt,prt,10557560,Europe & Central Asia,High income: OECD
+Puerto Rico,pr,pri,3678736,Latin America & Caribbean,High income
+Qatar,qa,qat,1905437,Middle East & North Africa,High income
+Reunion,re,reu,,,
+Romania,ro,rou,20147528,Europe & Central Asia,Upper middle income
+Russian Federation,ru,rus,142960868,Europe & Central Asia,Upper middle income
+Rwanda,rw,rwa,10556429,Sub-Saharan Africa,Low income
+Saint Barthelemy,bl,blm,,,
+Saint Helena,sh,shn,,,
+Saint Kitts and Nevis,kn,kna,,,
+Saint Lucia,lc,lca,,,
+Saint Martin (French part),mf,maf,,,
+Saint Pierre and Miquelon,pm,spm,,,
+Saint Vincent and the Grenadines,vc,vct,,,
+Samoa,ws,wsm,55316,East Asia & Pacific,Upper middle income
+San Marino,sm,smr,30938,Europe & Central Asia,High income
+Sao Tome and Principe,st,stp,174646,Sub-Saharan Africa,Lower middle income
+Saudi Arabia,sa,sau,28788438,Middle East & North Africa,High income
+Senegal,sn,sen,13357003,Sub-Saharan Africa,Lower middle income
+Serbia,rs,srb,7234099,Europe & Central Asia,Upper middle income
+Seychelles,sc,syc,87441,Sub-Saharan Africa,Upper middle income
+Sierra Leone,sl,sle,5908908,Sub-Saharan Africa,Low income
+Singapore,sg,sgp,5183688,East Asia & Pacific,High income
+Sint Maarten (Dutch part),sx,sxm,33435,Latin America & Caribbean,High income
+Slovakia,sk,svk,,,
+Slovenia,si,svn,2052843,Europe & Central Asia,High income: OECD
+Solomon Islands,sb,slb,537648,East Asia & Pacific,Lower middle income
+Somalia,so,som,9806670,Sub-Saharan Africa,Low income
+South Africa,za,zaf,51549958.1,Sub-Saharan Africa,Upper middle income
+South Georgia and the South Sandwich Islands,gs,sgs,,,
+South Sudan,ss,ssd,10510122,Sub-Saharan Africa,Not classified
+Spain,es,esp,46742697,Europe & Central Asia,High income: OECD
+Sri Lanka,lk,lka,20270000,South Asia,Lower middle income
+Sudan,sd,sdn,36918193,Sub-Saharan Africa,Lower middle income
+Suriname,sr,sur,523439,Latin America & Caribbean,Upper middle income
+Svalbard and Jan Mayen,sj,sjm,,,
+Swaziland,sz,swz,1212458,Sub-Saharan Africa,Lower middle income
+Sweden,se,swe,9449213,Europe & Central Asia,High income: OECD
+Switzerland,ch,che,7912398,Europe & Central Asia,High income: OECD
+Syrian Arab Republic,sy,syr,20501167,Middle East & North Africa,Lower middle income
+Taiwan,tw,twn,,,
+Tajikistan,tj,tjk,7753925,Europe & Central Asia,Low income
+Tanzania,tz,tza,47122998,Sub-Saharan Africa,Low income
+Thailand,th,tha,66902958,East Asia & Pacific,Upper middle income
+Timor-Leste,tl,tls,1120392,East Asia & Pacific,Lower middle income
+Togo,tg,tgo,6566179,Sub-Saharan Africa,Low income
+Tokelau,tk,tkl,,,
+Tonga,to,ton,104392,East Asia & Pacific,Lower middle income
+Trinidad and Tobago,tt,tto,1334790,Latin America & Caribbean,High income
+Tunisia,tn,tun,10673800,Middle East & North Africa,Upper middle income
+Turkey,tr,tur,73517002,Europe & Central Asia,Upper middle income
+Turkmenistan,tm,tkm,5106672,Europe & Central Asia,Lower middle income
+Turks and Caicos Islands,tc,tca,31727,Latin America & Caribbean,High income
+Tuvalu,tv,tuv,9844,East Asia & Pacific,Lower middle income
+Uganda,ug,uga,34260342,Sub-Saharan Africa,Low income
+Ukraine,ua,ukr,45706100,Europe & Central Asia,Lower middle income
+United Arab Emirates,ae,are,8734722,Middle East & North Africa,High income
+United Kingdom of Great Britain and Northern Ireland,gb,gbr,,,
+United States of America,us,usa,,,
+United States Minor Outlying Islands,um,umi,,,
+Uruguay,uy,ury,3385610,Latin America & Caribbean,Upper middle income
+Uzbekistan,uz,uzb,29339400,Europe & Central Asia,Lower middle income
+Vanuatu,vu,vut,241876,East Asia & Pacific,Lower middle income
+Venezuela (Bolivarian Republic of),ve,ven,,,
+Viet Nam,vn,vnm,,,
+Virgin Islands (British),vg,vgb,,,
+Virgin Islands (U.S.),vi,vir,105784,Latin America & Caribbean,High income
+Wallis and Futuna,wf,wlf,,,
+Western Sahara,eh,esh,,,
+Yemen,ye,yem,24234940,Middle East & North Africa,Lower middle income
+Zambia,zm,zmb,14343526,Sub-Saharan Africa,Lower middle income
+Zimbabw,zw,zwe,14255592,Sub-Saharan Africa,Low income

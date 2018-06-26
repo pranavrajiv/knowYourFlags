@@ -1,250 +1,250 @@
-country,alpha1,alpha2,population,region,income
-Afghanistan,af,afg,28809167,South Asia,Low income
-Albania,al,alb,2904780,Europe & Central Asia,Upper middle income
-Algeria,dz,dza,36717132,Middle East & North Africa,Upper middle income
-American Samoa,as,asm,55316,East Asia & Pacific,Upper middle income
-Andorra,ad,and,82326,Europe & Central Asia,High income
-Angola,ao,ago,21942296,Sub-Saharan Africa,Lower middle income
-Anguilla,ai,aia,,,
-Antarctica,aq,ata,,,
-Antigua and Barbuda,ag,atg,88152,Latin America & Caribbean,Upper middle income
-Argentina,ar,arg,41655616,Latin America & Caribbean,Upper middle income
-Armenia,am,arm,2967984,Europe & Central Asia,Lower middle income
-Aruba,aw,abw,101936,Latin America & Caribbean,High income
-Australia,au,aus,22340024,East Asia & Pacific,High income: OECD
-Austria,at,aut,8391643,Europe & Central Asia,High income: OECD
-Azerbaijan,az,aze,9173082,Europe & Central Asia,Upper middle income
-Bahamas,bs,bhs,366711,Latin America & Caribbean,High income
-Bahrain,bh,bhr,1306014,Middle East & North Africa,High income
-Bangladesh,bd,bgd,153405612,South Asia,Low income
-Barbados,bb,brb,280602,Latin America & Caribbean,High income
-Belarus,by,blr,9473000,Europe & Central Asia,Upper middle income
-Belgium,be,bel,11047744,Europe & Central Asia,High income: OECD
-Belize,bz,blz,329193,Latin America & Caribbean,Lower middle income
-Benin,bj,ben,9779391,Sub-Saharan Africa,Low income
-Bermuda,bm,bmu,64564,North America,High income
-Bhutan,bt,btn,732246,South Asia,Lower middle income
-Bolivia,bo,bol,10078238,Latin America & Caribbean,Lower middle income
-Bonaire,bq,bes,,,
-Bosnia and Herzegovina,ba,bih,3832310,Europe & Central Asia,Upper middle income
-Botswana,bw,bwa,2089706,Sub-Saharan Africa,Upper middle income
-Bouvet Island,bv,bvt,,,
-Brazil,br,bra,200517584,Latin America & Caribbean,Upper middle income
-British Indian Ocean Territory,io,iot,,,
-Brunei Darussalam,bn,brn,399443,East Asia & Pacific,High income
-Bulgaria,bg,bgr,7348328,Europe & Central Asia,Upper middle income
-Burkina Faso,bf,bfa,16106851,Sub-Saharan Africa,Low income
-Burundi,bi,bdi,9790151,Sub-Saharan Africa,Low income
-Cabo Verde,cv,cpv,,,
-Cambodia,kh,khm,14593099,East Asia & Pacific,Low income
-Cameroon,cm,cmr,21119065,Sub-Saharan Africa,Lower middle income
-Canada,ca,can,34342780,North America,High income: OECD
-Cayman Islands,ky,cym,56580,Latin America & Caribbean,High income
-Central African Republic,cf,caf,4530903,Sub-Saharan Africa,Low income
-Chad,td,tcd,12298512,Sub-Saharan Africa,Low income
-Chile,cl,chl,17201305,Latin America & Caribbean,Upper middle income
-China,cn,chn,1344130000,East Asia & Pacific,Upper middle income
-Christmas Island,cx,cxr,,,
-Cocos (Keeling) Islands,cc,cck,,,
-Colombia,co,col,46406446,Latin America & Caribbean,Upper middle income
-Comoros,km,com,715972,Sub-Saharan Africa,Low income
-Congo,cg,cog,68087376,Sub-Saharan Africa,Low income
-Congo (Democratic Republic of the),cd,cod,,,
-Cook Islands,ck,cok,,,
-Costa Rica,cr,cri,4600487,Latin America & Caribbean,Upper middle income
-Ivory Coast,ci,civ,,,
-Croatia,hr,hrv,4280622,Europe & Central Asia,High income
-Cuba,cu,cub,11323570,Latin America & Caribbean,Upper middle income
-Curacao,cw,cuw,150831,Latin America & Caribbean,High income
-Cyprus,cy,cyp,1116644,Europe & Central Asia,High income
-Czechia,cz,cze,,,
-Denmark,dk,dnk,5570572,Europe & Central Asia,High income: OECD
-Djibouti,dj,dji,841802,Middle East & North Africa,Lower middle income
-Dominica,dm,dma,71402,Latin America & Caribbean,Upper middle income
-Dominican Republic,do,dom,10027140,Latin America & Caribbean,Upper middle income
-Ecuador,ec,ecu,15177280,Latin America & Caribbean,Upper middle income
-Egypt,eg,egy,83787634,Middle East & North Africa,Lower middle income
-El Salvador,sv,slv,6055208,Latin America & Caribbean,Lower middle income
-Equatorial Guinea,gq,gnq,750918,Sub-Saharan Africa,High income
-Eritrea,er,eri,4789568,Sub-Saharan Africa,Low income
-Estonia,ee,est,1327439,Europe & Central Asia,High income: OECD
-Ethiopia,et,eth,89858696,Sub-Saharan Africa,Low income
-Falkland Islands (Malvinas),fk,flk,,,
-Faroe Islands,fo,fro,,,
-Fiji,fj,fji,867327,East Asia & Pacific,Lower middle income
-Finland,fi,fin,5388272,Europe & Central Asia,High income: OECD
-France,fr,fra,65342776,Europe & Central Asia,High income: OECD
-French Guiana,gf,guf,,,
-French Polynesia,pf,pyf,270862,East Asia & Pacific,High income
-French Southern Territories,tf,atf,,,
-Gabon,ga,gab,1577298,Sub-Saharan Africa,Upper middle income
-Gambia,gm,gmb,1749099,Sub-Saharan Africa,Low income
-Georgia,ge,geo,3875000,Europe & Central Asia,Lower middle income
-Germany,de,deu,81797673,Europe & Central Asia,High income: OECD
-Ghana,gh,gha,24928503,Sub-Saharan Africa,Lower middle income
-Gibraltar,gi,gib,31067,Europe & Central Asia,High income
-Greece,gr,grc,11104899,Europe & Central Asia,High income: OECD
-Greenland,gl,grl,56890,Europe & Central Asia,High income
-Grenada,gd,grd,105070,Latin America & Caribbean,Upper middle income
-Guadeloupe,gp,glp,,,
-Guam,gu,gum,160858,East Asia & Pacific,High income
-Guatemala,gt,gtm,15049280,Latin America & Caribbean,Lower middle income
-Guernsey,gg,ggy,,,
-Guinea,gn,gin,11316351,Sub-Saharan Africa,Low income
-Guinea-Bissau,gw,gnb,1673509,Sub-Saharan Africa,Low income
-Guyana,gy,guy,755883,Latin America & Caribbean,Lower middle income
-Haiti,ht,hti,10144890,Latin America & Caribbean,Low income
-Heard Island and McDonald Islands,hm,hmd,,,
-Holy See,va,vat,,,
-Honduras,hn,hnd,7621414,Latin America & Caribbean,Lower middle income
-Hong Kong,hk,hkg,7071600,East Asia & Pacific,High income
-Hungary,hu,hun,9971727,Europe & Central Asia,High income: OECD
-Iceland,is,isl,319014,Europe & Central Asia,High income: OECD
-India,in,ind,1247446011,South Asia,Lower middle income
-Indonesia,id,idn,244808254,East Asia & Pacific,Lower middle income
-Iran (Islamic Republic of),ir,irn,,,
-Iraq,iq,irq,31867758,Middle East & North Africa,Lower middle income
-Ireland,ie,irl,4576794,Europe & Central Asia,High income: OECD
-Isle of Man,im,imn,85069,Europe & Central Asia,High income
-Israel,il,isr,7765800,Middle East & North Africa,High income: OECD
-Italy,it,ita,59379449,Europe & Central Asia,High income: OECD
-Jamaica,jm,jam,2699838,Latin America & Caribbean,Upper middle income
-Japan,jp,jpn,127817277,East Asia & Pacific,High income: OECD
-Jersey,je,jey,,,
-Jordan,jo,jor,6760371,Middle East & North Africa,Upper middle income
-Kazakhstan,kz,kaz,16556600,Europe & Central Asia,Upper middle income
-Kenya,ke,ken,41419954,Sub-Saharan Africa,Low income
-Kiribati,ki,kir,104662,East Asia & Pacific,Lower middle income
-Korea (Democratic People's Republic of),kp,prk,,,
-Korea (Republic of),kr,kor,,,
-Kuwait,kw,kwt,3239181,Middle East & North Africa,High income
-Kyrgyzstan,kg,kgz,,,
-Lao People's Democratic Republic,la,lao,,,
-Latvia,lv,lva,2059709,Europe & Central Asia,Upper middle income
-Lebanon,lb,lbn,4591698,Middle East & North Africa,Upper middle income
-Lesotho,ls,lso,2032950,Sub-Saharan Africa,Lower middle income
-Liberia,lr,lbr,4079574,Sub-Saharan Africa,Low income
-Libya,ly,lby,6288652,Middle East & North Africa,Upper middle income
-Liechtenstein,li,lie,36537,Europe & Central Asia,High income
-Lithuania,lt,ltu,3028115,Europe & Central Asia,Upper middle income
-Luxembourg,lu,lux,518347,Europe & Central Asia,High income: OECD
-Macao,mo,mac,546682,East Asia & Pacific,High income
-Macedonia (the former Yugoslav Republic of),mk,mkd,,,
-Madagascar,mg,mdg,21678867,Sub-Saharan Africa,Low income
-Malawi,mw,mwi,15226813,Sub-Saharan Africa,Low income
-Malaysia,my,mys,28572970,East Asia & Pacific,Upper middle income
-Maldives,mv,mdv,377000,South Asia,Upper middle income
-Mali,ml,mli,15639115,Sub-Saharan Africa,Low income
-Malta,mt,mlt,416268,Middle East & North Africa,High income
-Marshall Islands,mh,mhl,52541,East Asia & Pacific,Lower middle income
-Martinique,mq,mtq,,,
-Mauritania,mr,mrt,3683221,Sub-Saharan Africa,Lower middle income
-Mauritius,mu,mus,1252404,Sub-Saharan Africa,Upper middle income
-Mayotte,yt,myt,,,
-Mexico,mx,mex,120365271,Latin America & Caribbean,Upper middle income
-Micronesia (Federated States of),fm,fsm,,,
-Moldova (Republic of),md,mda,,,
-Monaco,mc,mco,37189,Europe & Central Asia,High income
-Mongolia,mn,mng,2759074,East Asia & Pacific,Lower middle income
-Montenegro,me,mne,620079,Europe & Central Asia,Upper middle income
-Montserrat,ms,msr,,,
-Morocco,ma,mar,32531964,Middle East & North Africa,Lower middle income
-Mozambique,mz,moz,25016921,Sub-Saharan Africa,Low income
-Myanmar,mm,mmr,52125411,East Asia & Pacific,Low income
-Namibia,na,nam,2240161,Sub-Saharan Africa,Upper middle income
-Nauru,nr,nru,,,
-Nepal,np,npl,27179237,South Asia,Low income
-Netherlands,nl,nld,16693074,Europe & Central Asia,High income: OECD
-New Caledonia,nc,ncl,254000,East Asia & Pacific,High income
-New Zealand,nz,nzl,4384000,East Asia & Pacific,High income: OECD
-Nicaragua,ni,nic,5807787,Latin America & Caribbean,Lower middle income
-Niger,ne,ner,16946485,Sub-Saharan Africa,Low income
-Nigeria,ng,nga,163770669,Sub-Saharan Africa,Lower middle income
-Niue,nu,niu,,,
-Norfolk Island,nf,nfk,,,
-Northern Mariana Islands,mp,mnp,53234,East Asia & Pacific,High income
-Norway,no,nor,4953088,Europe & Central Asia,High income: OECD
-Oland Islands,ax,ala,,,
-Oman,om,omn,3210003,Middle East & North Africa,High income
-Pakistan,pk,pak,173669648,South Asia,Lower middle income
-Palau,pw,plw,20606,East Asia & Pacific,Upper middle income
-Palestine,ps,pse,,,
-Panama,pa,pan,3681979,Latin America & Caribbean,Upper middle income
-Papua New Guinea,pg,png,7001172,East Asia & Pacific,Lower middle income
-Paraguay,py,pry,6293763,Latin America & Caribbean,Lower middle income
-Peru,pe,per,29759891,Latin America & Caribbean,Upper middle income
-Philippines,ph,phl,94501233,East Asia & Pacific,Lower middle income
-Pitcairn,pn,pcn,,,
-Poland,pl,pol,38063255,Europe & Central Asia,High income: OECD
-Portugal,pt,prt,10557560,Europe & Central Asia,High income: OECD
-Puerto Rico,pr,pri,3678736,Latin America & Caribbean,High income
-Qatar,qa,qat,1905437,Middle East & North Africa,High income
-Reunion,re,reu,,,
-Romania,ro,rou,20147528,Europe & Central Asia,Upper middle income
-Russian Federation,ru,rus,142960868,Europe & Central Asia,Upper middle income
-Rwanda,rw,rwa,10556429,Sub-Saharan Africa,Low income
-Saint Barthelemy,bl,blm,,,
-Saint Helena,sh,shn,,,
-Saint Kitts and Nevis,kn,kna,,,
-Saint Lucia,lc,lca,,,
-Saint Martin (French part),mf,maf,,,
-Saint Pierre and Miquelon,pm,spm,,,
-Saint Vincent and the Grenadines,vc,vct,,,
-Samoa,ws,wsm,55316,East Asia & Pacific,Upper middle income
-San Marino,sm,smr,30938,Europe & Central Asia,High income
-Sao Tome and Principe,st,stp,174646,Sub-Saharan Africa,Lower middle income
-Saudi Arabia,sa,sau,28788438,Middle East & North Africa,High income
-Senegal,sn,sen,13357003,Sub-Saharan Africa,Lower middle income
-Serbia,rs,srb,7234099,Europe & Central Asia,Upper middle income
-Seychelles,sc,syc,87441,Sub-Saharan Africa,Upper middle income
-Sierra Leone,sl,sle,5908908,Sub-Saharan Africa,Low income
-Singapore,sg,sgp,5183688,East Asia & Pacific,High income
-Sint Maarten (Dutch part),sx,sxm,33435,Latin America & Caribbean,High income
-Slovakia,sk,svk,,,
-Slovenia,si,svn,2052843,Europe & Central Asia,High income: OECD
-Solomon Islands,sb,slb,537648,East Asia & Pacific,Lower middle income
-Somalia,so,som,9806670,Sub-Saharan Africa,Low income
-South Africa,za,zaf,51549958.1,Sub-Saharan Africa,Upper middle income
-South Georgia and the South Sandwich Islands,gs,sgs,,,
-South Sudan,ss,ssd,10510122,Sub-Saharan Africa,Not classified
-Spain,es,esp,46742697,Europe & Central Asia,High income: OECD
-Sri Lanka,lk,lka,20270000,South Asia,Lower middle income
-Sudan,sd,sdn,36918193,Sub-Saharan Africa,Lower middle income
-Suriname,sr,sur,523439,Latin America & Caribbean,Upper middle income
-Svalbard and Jan Mayen,sj,sjm,,,
-Swaziland,sz,swz,1212458,Sub-Saharan Africa,Lower middle income
-Sweden,se,swe,9449213,Europe & Central Asia,High income: OECD
-Switzerland,ch,che,7912398,Europe & Central Asia,High income: OECD
-Syrian Arab Republic,sy,syr,20501167,Middle East & North Africa,Lower middle income
-Taiwan,tw,twn,,,
-Tajikistan,tj,tjk,7753925,Europe & Central Asia,Low income
-Tanzania,tz,tza,47122998,Sub-Saharan Africa,Low income
-Thailand,th,tha,66902958,East Asia & Pacific,Upper middle income
-Timor-Leste,tl,tls,1120392,East Asia & Pacific,Lower middle income
-Togo,tg,tgo,6566179,Sub-Saharan Africa,Low income
-Tokelau,tk,tkl,,,
-Tonga,to,ton,104392,East Asia & Pacific,Lower middle income
-Trinidad and Tobago,tt,tto,1334790,Latin America & Caribbean,High income
-Tunisia,tn,tun,10673800,Middle East & North Africa,Upper middle income
-Turkey,tr,tur,73517002,Europe & Central Asia,Upper middle income
-Turkmenistan,tm,tkm,5106672,Europe & Central Asia,Lower middle income
-Turks and Caicos Islands,tc,tca,31727,Latin America & Caribbean,High income
-Tuvalu,tv,tuv,9844,East Asia & Pacific,Lower middle income
-Uganda,ug,uga,34260342,Sub-Saharan Africa,Low income
-Ukraine,ua,ukr,45706100,Europe & Central Asia,Lower middle income
-United Arab Emirates,ae,are,8734722,Middle East & North Africa,High income
-United Kingdom of Great Britain and Northern Ireland,gb,gbr,,,
-United States of America,us,usa,,,
-United States Minor Outlying Islands,um,umi,,,
-Uruguay,uy,ury,3385610,Latin America & Caribbean,Upper middle income
-Uzbekistan,uz,uzb,29339400,Europe & Central Asia,Lower middle income
-Vanuatu,vu,vut,241876,East Asia & Pacific,Lower middle income
-Venezuela (Bolivarian Republic of),ve,ven,,,
-Viet Nam,vn,vnm,,,
-Virgin Islands (British),vg,vgb,,,
-Virgin Islands (U.S.),vi,vir,105784,Latin America & Caribbean,High income
-Wallis and Futuna,wf,wlf,,,
-Western Sahara,eh,esh,,,
-Yemen,ye,yem,24234940,Middle East & North Africa,Lower middle income
-Zambia,zm,zmb,14343526,Sub-Saharan Africa,Lower middle income
-Zimbabw,zw,zwe,14255592,Sub-Saharan Africa,Low income
+country,alpha1,alpha2,population,region,income,currency
+Afghanistan,af,afg,28809167,South Asia,Low income,Afghani (AFN)
+Albania,al,alb,2904780,Europe & Central Asia,Upper middle income,Lek (ALL)
+Algeria,dz,dza,36717132,Middle East & North Africa,Upper middle income,Algerian Dinar (DZD)
+American Samoa,as,asm,55316,East Asia & Pacific,Upper middle income,Euros (EUR)
+Andorra,ad,and,82326,Europe & Central Asia,High income,Euros (EUR)
+Angola,ao,ago,21942296,Sub-Saharan Africa,Lower middle income,Angolan kwanza (AOA)
+Anguilla,ai,aia,,,,East Caribbean Dollar (XCD)
+Antarctica,aq,ata,,,,Antarctican dollar (AQD)
+Antigua and Barbuda,ag,atg,88152,Latin America & Caribbean,Upper middle income,East Caribbean Dollar (XCD)
+Argentina,ar,arg,41655616,Latin America & Caribbean,Upper middle income,Peso (ARS)
+Armenia,am,arm,2967984,Europe & Central Asia,Lower middle income,Dram (AMD)
+Aruba,aw,abw,101936,Latin America & Caribbean,High income,Netherlands Antilles Guilder (ANG)
+Australia,au,aus,22340024,East Asia & Pacific,High income: OECD,Australian Dollars (AUD)
+Austria,at,aut,8391643,Europe & Central Asia,High income: OECD,Euros (EUR)
+Azerbaijan,az,aze,9173082,Europe & Central Asia,Upper middle income,Manat (AZN)
+Bahamas,bs,bhs,366711,Latin America & Caribbean,High income,Bahamian Dollar (BSD)
+Bahrain,bh,bhr,1306014,Middle East & North Africa,High income,Bahraini Dinar (BHD)
+Bangladesh,bd,bgd,153405612,South Asia,Low income,Taka (BDT)
+Barbados,bb,brb,280602,Latin America & Caribbean,High income,Barbadian Dollar (BBD)
+Belarus,by,blr,9473000,Europe & Central Asia,Upper middle income,Belarus Ruble (BYR)
+Belgium,be,bel,11047744,Europe & Central Asia,High income: OECD,Euros (EUR)
+Belize,bz,blz,329193,Latin America & Caribbean,Lower middle income,Belizean Dollar (BZD)
+Benin,bj,ben,9779391,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF)
+Bermuda,bm,bmu,64564,North America,High income,Bermudian Dollar (BMD)
+Bhutan,bt,btn,732246,South Asia,Lower middle income,Indian Rupee (INR)
+Bolivia,bo,bol,10078238,Latin America & Caribbean,Lower middle income,Boliviano (BOB)
+Bonaire,bq,bes,,,,
+Bosnia and Herzegovina,ba,bih,3832310,Europe & Central Asia,Upper middle income,Bosnia and Herzegovina convertible mark (BAM)
+Botswana,bw,bwa,2089706,Sub-Saharan Africa,Upper middle income,Pula (BWP)
+Bouvet Island,bv,bvt,,,,Norwegian Krone (NOK)
+Brazil,br,bra,200517584,Latin America & Caribbean,Upper middle income,Brazil (BRL)
+British Indian Ocean Territory,io,iot,,,,USD (USD)
+Brunei Darussalam,bn,brn,399443,East Asia & Pacific,High income,Bruneian Dollar (BND)
+Bulgaria,bg,bgr,7348328,Europe & Central Asia,Upper middle income,Lev (BGN)
+Burkina Faso,bf,bfa,16106851,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF)
+Burundi,bi,bdi,9790151,Sub-Saharan Africa,Low income,Burundi Franc (BIF)
+Cabo Verde,cv,cpv,,,,
+Cambodia,kh,khm,14593099,East Asia & Pacific,Low income,Riel (KHR)
+Cameroon,cm,cmr,21119065,Sub-Saharan Africa,Lower middle income,CFA Franc BEAC (XAF)
+Canada,ca,can,34342780,North America,High income: OECD,Canadian Dollar (CAD)
+Cayman Islands,ky,cym,56580,Latin America & Caribbean,High income,Caymanian Dollar (KYD)
+Central African Republic,cf,caf,4530903,Sub-Saharan Africa,Low income,CFA Franc BEAC (XAF)
+Chad,td,tcd,12298512,Sub-Saharan Africa,Low income,CFA Franc BEAC (XAF)
+Chile,cl,chl,17201305,Latin America & Caribbean,Upper middle income,Chilean Peso (CLP)
+China,cn,chn,1344130000,East Asia & Pacific,Upper middle income,Yuan Renminbi (CNY)
+Christmas Island,cx,cxr,,,,Australian Dollars (AUD)
+Cocos (Keeling) Islands,cc,cck,,,,Australian Dollars (AUD)
+Colombia,co,col,46406446,Latin America & Caribbean,Upper middle income,Peso (COP)
+Comoros,km,com,715972,Sub-Saharan Africa,Low income,Comoran Franc (KMF)
+Congo,cg,cog,68087376,Sub-Saharan Africa,Low income,CFA Franc BEAC (XAF)
+Congo (Democratic Republic of the),cd,cod,,,,
+Cook Islands,ck,cok,,,,New Zealand Dollars (NZD)
+Costa Rica,cr,cri,4600487,Latin America & Caribbean,Upper middle income,Costa Rican Colon (CRC)
+Ivory Coast,ci,civ,,,,CFA Franc BCEAO (XOF)
+Croatia,hr,hrv,4280622,Europe & Central Asia,High income,Croatian Dinar (HRK)
+Cuba,cu,cub,11323570,Latin America & Caribbean,Upper middle income,Cuban Peso (CUP)
+Curacao,cw,cuw,150831,Latin America & Caribbean,High income,
+Cyprus,cy,cyp,1116644,Europe & Central Asia,High income,Cypriot Pound (CYP)
+Czechia,cz,cze,,,,
+Denmark,dk,dnk,5570572,Europe & Central Asia,High income: OECD,Danish Krone (DKK)
+Djibouti,dj,dji,841802,Middle East & North Africa,Lower middle income,Djiboutian Franc (DJF)
+Dominica,dm,dma,71402,Latin America & Caribbean,Upper middle income,East Caribbean Dollar (XCD)
+Dominican Republic,do,dom,10027140,Latin America & Caribbean,Upper middle income,Dominican Peso (DOP)
+Ecuador,ec,ecu,15177280,Latin America & Caribbean,Upper middle income,Sucre (ECS)
+Egypt,eg,egy,83787634,Middle East & North Africa,Lower middle income,Egyptian Pound (EGP)
+El Salvador,sv,slv,6055208,Latin America & Caribbean,Lower middle income,Salvadoran Colon (SVC)
+Equatorial Guinea,gq,gnq,750918,Sub-Saharan Africa,High income,CFA Franc BEAC (XAF)
+Eritrea,er,eri,4789568,Sub-Saharan Africa,Low income,Ethiopian Birr (ETB)
+Estonia,ee,est,1327439,Europe & Central Asia,High income: OECD,Estonian Kroon (EEK)
+Ethiopia,et,eth,89858696,Sub-Saharan Africa,Low income,Ethiopian Birr (ETB)
+Falkland Islands (Malvinas),fk,flk,,,,Falkland Pound (FKP)
+Faroe Islands,fo,fro,,,,Danish Krone (DKK)
+Fiji,fj,fji,867327,East Asia & Pacific,Lower middle income,Fijian Dollar (FJD)
+Finland,fi,fin,5388272,Europe & Central Asia,High income: OECD,Euros (EUR)
+France,fr,fra,65342776,Europe & Central Asia,High income: OECD,Euros (EUR)
+French Guiana,gf,guf,,,,Euros (EUR)
+French Polynesia,pf,pyf,270862,East Asia & Pacific,High income,CFP Franc (XPF)
+French Southern Territories,tf,atf,,,,Euros (EUR)
+Gabon,ga,gab,1577298,Sub-Saharan Africa,Upper middle income,CFA Franc BEAC (XAF)
+Gambia,gm,gmb,1749099,Sub-Saharan Africa,Low income,Dalasi (GMD)
+Georgia,ge,geo,3875000,Europe & Central Asia,Lower middle income,Sterling (GBP)
+Germany,de,deu,81797673,Europe & Central Asia,High income: OECD,Euros (EUR)
+Ghana,gh,gha,24928503,Sub-Saharan Africa,Lower middle income,Ghana cedi (GHS)
+Gibraltar,gi,gib,31067,Europe & Central Asia,High income,Gibraltar Pound (GIP)
+Greece,gr,grc,11104899,Europe & Central Asia,High income: OECD,Euros (EUR)
+Greenland,gl,grl,56890,Europe & Central Asia,High income,Danish Krone (DKK)
+Grenada,gd,grd,105070,Latin America & Caribbean,Upper middle income,East Caribbean Dollar (XCD)
+Guadeloupe,gp,glp,,,,Euros (EUR)
+Guam,gu,gum,160858,East Asia & Pacific,High income,USD (USD)
+Guatemala,gt,gtm,15049280,Latin America & Caribbean,Lower middle income,Quetzal (GTQ)
+Guernsey,gg,ggy,,,,Guernsey pound (GGP)
+Guinea,gn,gin,11316351,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF)
+Guinea-Bissau,gw,gnb,1673509,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF)
+Guyana,gy,guy,755883,Latin America & Caribbean,Lower middle income,Guyanaese Dollar (GYD)
+Haiti,ht,hti,10144890,Latin America & Caribbean,Low income,Gourde (HTG)
+Heard Island and McDonald Islands,hm,hmd,,,,
+Holy See,va,vat,,,,Euros (EUR)
+Honduras,hn,hnd,7621414,Latin America & Caribbean,Lower middle income,Lempira (HNL)
+Hong Kong,hk,hkg,7071600,East Asia & Pacific,High income,HKD (HKD)
+Hungary,hu,hun,9971727,Europe & Central Asia,High income: OECD,Forint (HUF)
+Iceland,is,isl,319014,Europe & Central Asia,High income: OECD,Icelandic Krona (ISK)
+India,in,ind,1247446011,South Asia,Lower middle income,USD (USD)
+Indonesia,id,idn,244808254,East Asia & Pacific,Lower middle income,Indonesian Rupiah (IDR)
+Iran (Islamic Republic of),ir,irn,,,,Iranian Rial (IRR)
+Iraq,iq,irq,31867758,Middle East & North Africa,Lower middle income,Iraqi Dinar (IQD)
+Ireland,ie,irl,4576794,Europe & Central Asia,High income: OECD,Euros (EUR)
+Isle of Man,im,imn,85069,Europe & Central Asia,High income,Manx pound (GBP)
+Israel,il,isr,7765800,Middle East & North Africa,High income: OECD,Shekel (ILS)
+Italy,it,ita,59379449,Europe & Central Asia,High income: OECD,Euros (EUR)
+Jamaica,jm,jam,2699838,Latin America & Caribbean,Upper middle income,Jamaican Dollar (JMD)
+Japan,jp,jpn,127817277,East Asia & Pacific,High income: OECD,Japanese Yen (JPY)
+Jersey,je,jey,,,,Sterling (GBP)
+Jordan,jo,jor,6760371,Middle East & North Africa,Upper middle income,Jordanian Dinar (JOD)
+Kazakhstan,kz,kaz,16556600,Europe & Central Asia,Upper middle income,Tenge (KZT)
+Kenya,ke,ken,41419954,Sub-Saharan Africa,Low income,Kenyan Shilling (KES)
+Kiribati,ki,kir,104662,East Asia & Pacific,Lower middle income,Australian Dollars (AUD)
+Korea (Democratic People's Republic of),kp,prk,,,,
+Korea (Republic of),kr,kor,,,,
+Kuwait,kw,kwt,3239181,Middle East & North Africa,High income,Kuwaiti Dinar (KWD)
+Kyrgyzstan,kg,kgz,,,,Som (KGS)
+Lao People's Democratic Republic,la,lao,,,,
+Latvia,lv,lva,2059709,Europe & Central Asia,Upper middle income,Lat (LVL)
+Lebanon,lb,lbn,4591698,Middle East & North Africa,Upper middle income,Lebanese Pound (LBP)
+Lesotho,ls,lso,2032950,Sub-Saharan Africa,Lower middle income,Loti (LSL)
+Liberia,lr,lbr,4079574,Sub-Saharan Africa,Low income,Liberian Dollar (LRD)
+Libya,ly,lby,6288652,Middle East & North Africa,Upper middle income,Libyan Dinar (LYD)
+Liechtenstein,li,lie,36537,Europe & Central Asia,High income,Swiss Franc (CHF)
+Lithuania,lt,ltu,3028115,Europe & Central Asia,Upper middle income,Lita (LTL)
+Luxembourg,lu,lux,518347,Europe & Central Asia,High income: OECD,Euros (EUR)
+Macao,mo,mac,546682,East Asia & Pacific,High income,Macanese pataca (MOP)
+Macedonia (the former Yugoslav Republic of),mk,mkd,,,,
+Madagascar,mg,mdg,21678867,Sub-Saharan Africa,Low income,Malagasy Franc (MGA)
+Malawi,mw,mwi,15226813,Sub-Saharan Africa,Low income,Malawian Kwacha (MWK)
+Malaysia,my,mys,28572970,East Asia & Pacific,Upper middle income,Ringgit (MYR)
+Maldives,mv,mdv,377000,South Asia,Upper middle income,Rufiyaa (MVR)
+Mali,ml,mli,15639115,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF)
+Malta,mt,mlt,416268,Middle East & North Africa,High income,Maltese Lira (MTL)
+Marshall Islands,mh,mhl,52541,East Asia & Pacific,Lower middle income,USD (USD)
+Martinique,mq,mtq,,,,Euros (EUR)
+Mauritania,mr,mrt,3683221,Sub-Saharan Africa,Lower middle income,Ouguiya (MRO)
+Mauritius,mu,mus,1252404,Sub-Saharan Africa,Upper middle income,Mauritian Rupee (MUR)
+Mayotte,yt,myt,,,,Euros (EUR)
+Mexico,mx,mex,120365271,Latin America & Caribbean,Upper middle income,Peso (MXN)
+Micronesia (Federated States of),fm,fsm,,,,
+Moldova (Republic of),md,mda,,,,
+Monaco,mc,mco,37189,Europe & Central Asia,High income,Euros (EUR)
+Mongolia,mn,mng,2759074,East Asia & Pacific,Lower middle income,Tugrik (MNT)
+Montenegro,me,mne,620079,Europe & Central Asia,Upper middle income,Euro (EUR)
+Montserrat,ms,msr,,,,East Caribbean Dollar (XCD)
+Morocco,ma,mar,32531964,Middle East & North Africa,Lower middle income,Dirham (MAD)
+Mozambique,mz,moz,25016921,Sub-Saharan Africa,Low income,Metical (MZN)
+Myanmar,mm,mmr,52125411,East Asia & Pacific,Low income,Kyat (MMK)
+Namibia,na,nam,2240161,Sub-Saharan Africa,Upper middle income,Dollar (NAD)
+Nauru,nr,nru,,,,Australian Dollars (AUD)
+Nepal,np,npl,27179237,South Asia,Low income,Nepalese Rupee (NPR)
+Netherlands,nl,nld,16693074,Europe & Central Asia,High income: OECD,Euros (EUR)
+New Caledonia,nc,ncl,254000,East Asia & Pacific,High income,CFP Franc (XPF)
+New Zealand,nz,nzl,4384000,East Asia & Pacific,High income: OECD,New Zealand Dollars (NZD)
+Nicaragua,ni,nic,5807787,Latin America & Caribbean,Lower middle income,Cordoba Oro (NIO)
+Niger,ne,ner,16946485,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF)
+Nigeria,ng,nga,163770669,Sub-Saharan Africa,Lower middle income,Naira (NGN)
+Niue,nu,niu,,,,New Zealand Dollars (NZD)
+Norfolk Island,nf,nfk,,,,Australian Dollars (AUD)
+Northern Mariana Islands,mp,mnp,53234,East Asia & Pacific,High income,USD (USD)
+Norway,no,nor,4953088,Europe & Central Asia,High income: OECD,Norwegian Krone (NOK)
+Oland Islands,ax,ala,,,,
+Oman,om,omn,3210003,Middle East & North Africa,High income,Sul Rial (OMR)
+Pakistan,pk,pak,173669648,South Asia,Lower middle income,Rupee (PKR)
+Palau,pw,plw,20606,East Asia & Pacific,Upper middle income,USD (USD)
+Palestine,ps,pse,,,,
+Panama,pa,pan,3681979,Latin America & Caribbean,Upper middle income,Balboa (PAB)
+Papua New Guinea,pg,png,7001172,East Asia & Pacific,Lower middle income,Kina (PGK)
+Paraguay,py,pry,6293763,Latin America & Caribbean,Lower middle income,Guarani (PYG)
+Peru,pe,per,29759891,Latin America & Caribbean,Upper middle income,Nuevo Sol (PEN)
+Philippines,ph,phl,94501233,East Asia & Pacific,Lower middle income,Peso (PHP)
+Pitcairn,pn,pcn,,,,New Zealand Dollars (NZD)
+Poland,pl,pol,38063255,Europe & Central Asia,High income: OECD,Zloty (PLN)
+Portugal,pt,prt,10557560,Europe & Central Asia,High income: OECD,Euros (EUR)
+Puerto Rico,pr,pri,3678736,Latin America & Caribbean,High income,USD (USD)
+Qatar,qa,qat,1905437,Middle East & North Africa,High income,Rial (QAR)
+Reunion,re,reu,,,,Euros (EUR)
+Romania,ro,rou,20147528,Europe & Central Asia,Upper middle income,Leu (RON)
+Russian Federation,ru,rus,142960868,Europe & Central Asia,Upper middle income,Ruble (RUB)
+Rwanda,rw,rwa,10556429,Sub-Saharan Africa,Low income,Rwanda Franc (RWF)
+Saint Barthelemy,bl,blm,,,,Euro (EUR)
+Saint Helena,sh,shn,,,,Saint Helena pound (GBP)
+Saint Kitts and Nevis,kn,kna,,,,
+Saint Lucia,lc,lca,,,,East Caribbean Dollar (XCD)
+Saint Martin (French part),mf,maf,,,,Netherlands Antillean guilder (ANG)
+Saint Pierre and Miquelon,pm,spm,,,,Euro (EUR)
+Saint Vincent and the Grenadines,vc,vct,,,,
+Samoa,ws,wsm,55316,East Asia & Pacific,Upper middle income,Euros (EUR)
+San Marino,sm,smr,30938,Europe & Central Asia,High income,Euros (EUR)
+Sao Tome and Principe,st,stp,174646,Sub-Saharan Africa,Lower middle income,Dobra (STD)
+Saudi Arabia,sa,sau,28788438,Middle East & North Africa,High income,Riyal (SAR)
+Senegal,sn,sen,13357003,Sub-Saharan Africa,Lower middle income,CFA Franc BCEAO (XOF)
+Serbia,rs,srb,7234099,Europe & Central Asia,Upper middle income,Serbian dinar (RSD)
+Seychelles,sc,syc,87441,Sub-Saharan Africa,Upper middle income,Rupee (SCR)
+Sierra Leone,sl,sle,5908908,Sub-Saharan Africa,Low income,Leone (SLL)
+Singapore,sg,sgp,5183688,East Asia & Pacific,High income,Dollar (SGD)
+Sint Maarten (Dutch part),sx,sxm,33435,Latin America & Caribbean,High income,
+Slovakia,sk,svk,,,,Koruna (SKK)
+Slovenia,si,svn,2052843,Europe & Central Asia,High income: OECD,Euros (EUR)
+Solomon Islands,sb,slb,537648,East Asia & Pacific,Lower middle income,Solomon Islands Dollar (SBD)
+Somalia,so,som,9806670,Sub-Saharan Africa,Low income,Shilling (SOS)
+South Africa,za,zaf,51549958.1,Sub-Saharan Africa,Upper middle income,Rand (ZAR)
+South Georgia and the South Sandwich Islands,gs,sgs,,,,Sterling (GBP)
+South Sudan,ss,ssd,10510122,Sub-Saharan Africa,Not classified,
+Spain,es,esp,46742697,Europe & Central Asia,High income: OECD,Euros (EUR)
+Sri Lanka,lk,lka,20270000,South Asia,Lower middle income,Rupee (LKR)
+Sudan,sd,sdn,36918193,Sub-Saharan Africa,Lower middle income,Dinar (SDG)
+Suriname,sr,sur,523439,Latin America & Caribbean,Upper middle income,Surinamese Guilder (SRD)
+Svalbard and Jan Mayen,sj,sjm,,,,Norwegian Krone (NOK)
+Swaziland,sz,swz,1212458,Sub-Saharan Africa,Lower middle income,Lilangeni (SZL)
+Sweden,se,swe,9449213,Europe & Central Asia,High income: OECD,Krona (SEK)
+Switzerland,ch,che,7912398,Europe & Central Asia,High income: OECD,Swiss Franc (CHF)
+Syrian Arab Republic,sy,syr,20501167,Middle East & North Africa,Lower middle income,Syrian Pound (SYP)
+Taiwan,tw,twn,,,,Dollar (TWD)
+Tajikistan,tj,tjk,7753925,Europe & Central Asia,Low income,Tajikistan Ruble (TJS)
+Tanzania,tz,tza,47122998,Sub-Saharan Africa,Low income,Shilling (TZS)
+Thailand,th,tha,66902958,East Asia & Pacific,Upper middle income,Baht (THB)
+Timor-Leste,tl,tls,1120392,East Asia & Pacific,Lower middle income,
+Togo,tg,tgo,6566179,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF)
+Tokelau,tk,tkl,,,,New Zealand Dollars (NZD)
+Tonga,to,ton,104392,East Asia & Pacific,Lower middle income,Pa‚Äö√†√∂‚àö√òanga (TOP)
+Trinidad and Tobago,tt,tto,1334790,Latin America & Caribbean,High income,Trinidad and Tobago Dollar (TTD)
+Tunisia,tn,tun,10673800,Middle East & North Africa,Upper middle income,Tunisian Dinar (TND)
+Turkey,tr,tur,73517002,Europe & Central Asia,Upper middle income,Lira (TRY)
+Turkmenistan,tm,tkm,5106672,Europe & Central Asia,Lower middle income,Manat (TMT)
+Turks and Caicos Islands,tc,tca,31727,Latin America & Caribbean,High income,USD (USD)
+Tuvalu,tv,tuv,9844,East Asia & Pacific,Lower middle income,Australian Dollars (AUD)
+Uganda,ug,uga,34260342,Sub-Saharan Africa,Low income,Shilling (UGX)
+Ukraine,ua,ukr,45706100,Europe & Central Asia,Lower middle income,Hryvnia (UAH)
+United Arab Emirates,ae,are,8734722,Middle East & North Africa,High income,Dirham (AED)
+United Kingdom of Great Britain and Northern Ireland,gb,gbr,,,,
+United States of America,us,usa,,,,
+United States Minor Outlying Islands,um,umi,,,,USD (USD)
+Uruguay,uy,ury,3385610,Latin America & Caribbean,Upper middle income,Peso (UYU)
+Uzbekistan,uz,uzb,29339400,Europe & Central Asia,Lower middle income,Som (UZS)
+Vanuatu,vu,vut,241876,East Asia & Pacific,Lower middle income,Vatu (VUV)
+Venezuela (Bolivarian Republic of),ve,ven,,,,
+Viet Nam,vn,vnm,,,,
+Virgin Islands (British),vg,vgb,,,,USD (USD)
+Virgin Islands (U.S.),vi,vir,105784,Latin America & Caribbean,High income,
+Wallis and Futuna,wf,wlf,,,,CFP Franc (XPF)
+Western Sahara,eh,esh,,,,Dirham (MAD)
+Yemen,ye,yem,24234940,Middle East & North Africa,Lower middle income,Rial (YER)
+Zambia,zm,zmb,14343526,Sub-Saharan Africa,Lower middle income,Kwacha (ZMK)
+Zimbab,zw,zwe,14255592,Sub-Saharan Africa,Low income,Zimbabwe Dollar (ZWD)
