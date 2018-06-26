@@ -13,6 +13,27 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var selectedItem: UILabel!
     
     @IBOutlet weak var selectedImage: UIImageView!
+    
+    @IBOutlet weak var popu: UILabel!
+    
+    
+    @IBOutlet weak var capi: UILabel!
+    
+    
+    @IBOutlet weak var curr: UILabel!
+    
+    
+    @IBOutlet weak var inco: UILabel!
+    
+    @IBOutlet weak var area: UILabel!
+    
+    @IBOutlet weak var regi: UILabel!
+    
+    
+    @IBOutlet weak var lang: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
