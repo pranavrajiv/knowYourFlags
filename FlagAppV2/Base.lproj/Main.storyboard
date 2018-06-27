@@ -214,7 +214,7 @@
             </objects>
             <point key="canvasLocation" x="2828" y="-0.44977511244377816"/>
         </scene>
-        <!--Item-->
+        <!--Countries-->
         <scene sceneID="Vth-u0-AZd">
             <objects>
                 <tableViewController id="4pw-z8-h3B" customClass="secondViewController" customModule="FlagAppV2" customModuleProvider="target" sceneMemberID="viewController">
@@ -254,14 +254,14 @@
                             <outlet property="delegate" destination="4pw-z8-h3B" id="r4p-qI-1pd"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="drs-HB-CQa"/>
+                    <tabBarItem key="tabBarItem" title="Countries" id="drs-HB-CQa"/>
                     <connections>
                         <segue destination="lOs-t5-vRh" kind="show" identifier="segue" id="TFQ-cJ-zv7"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PfR-MJ-y8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.5999999999999" y="294.60269865067471"/>
+            <point key="canvasLocation" x="2332" y="768"/>
         </scene>
         <!--About-->
         <scene sceneID="U25-Fd-QLG">
@@ -313,6 +313,6 @@
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UMW-18-mCe"/>
+        <segue reference="TFQ-cJ-zv7"/>
     </inferredMetricsTieBreakers>
 </document>
