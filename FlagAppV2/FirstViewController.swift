@@ -14,11 +14,18 @@ var counToFlagDict = [String: [String]]()
 
 var indexOfFlag = 0
 
+var predictionLabel = "USA"
+
 class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
     @IBOutlet weak var picTaken: UIImageView!
     
     @IBOutlet weak var detectLabel: UILabel!
+    @IBOutlet weak var knowMorebuttonSetProp: UIButton!
     
+    @IBAction func knowMoreButton(_ sender: Any) {
+        setIndexOfFlag(String(predictionLabel))
+        knowMorebuttonSetProp.backgroundColor = .yellow
+    }
     
     
     
@@ -77,11 +84,8 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
                 
                 
             }
-            count = count + 1
-            //if(count == 2)
-            //{
-                //break
-            //}
+            count = 1
+            
         }
     }
     
@@ -121,7 +125,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         
         
-        let url = URL(string: "file:///Users/pranav/Desktop/test_image.jpg")
+        let url = URL(string: "file:///Users/pranav/Desktop/IMG_5353.JPG")
         let data = try? Data(contentsOf: url!)
         
         let image = UIImage(data : data!)
@@ -155,14 +159,34 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         detectLabel.text = "\(result.classLabel) - \(converted) %"
         
         
-        //knowMorebuttonSetProp.backgroundColor = .blue
-        //knowMorebuttonSetProp.setTitle("Know more about \(result.classLabel) ", for: .normal)
+        knowMorebuttonSetProp.backgroundColor = .yellow
+        knowMorebuttonSetProp.setTitle("Know more about \(result.classLabel) ?", for: .normal)
+        
+        predictionLabel = result.classLabel
+        
         
     }
     
     
     
-    
+    func setIndexOfFlag(_ flagName: String)
+    {
+        
+        var counter = 0
+        
+        for item in flags
+        {
+            print("item.lowercased() = ", item.lowercased())
+            print("result.classLabel.lowercased() = ", flagName.lowercased())
+            if(item.lowercased()  == flagName.lowercased() )
+            {
+                indexOfFlag = counter
+                break;
+            }
+            counter = counter + 1
+        }
+        
+    }
     
     
     
@@ -220,13 +244,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         return result
     }
     
-    
-    
-    
-    
-    
-    
-    
+ 
 
 }
 
