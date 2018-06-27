@@ -14,12 +14,19 @@ var counToFlagDict = [String: [String]]()
 
 var indexOfFlag = 0
 
-
 class FirstViewController: UIViewController {
-
+    @IBOutlet weak var picTaken: UIImageView!
+    
+    @IBOutlet weak var detectLabel: UILabel!
+    
+   
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+         detectLabel.text = "Hello"
         
         var data = readDataFromCSV(fileName: "countries", fileType: "csv")
         data = cleanRows(file: data!)

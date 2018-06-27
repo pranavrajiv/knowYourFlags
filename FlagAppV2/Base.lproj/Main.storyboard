@@ -37,7 +37,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QR-0G-Xjt">
                                 <rect key="frame" x="109" y="446" width="156" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="know more"/>
                                 <connections>
                                     <segue destination="lOs-t5-vRh" kind="show" identifier="" id="UMW-18-mCe"/>
                                 </connections>
@@ -64,6 +63,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="ixQ-Cg-IPl"/>
+                    <connections>
+                        <outlet property="detectLabel" destination="AXz-w7-Yeb" id="z00-zt-Tru"/>
+                        <outlet property="picTaken" destination="n61-5G-3om" id="B3a-z8-H9q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>

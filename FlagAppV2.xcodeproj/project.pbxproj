@@ -268,6 +268,8 @@
 		811B413C20E18F7600619772 /* wf.png in Resources */ = {isa = PBXBuildFile; fileRef = 811B404120E18F7500619772 /* wf.png */; };
 		811B413D20E18F7600619772 /* vu.png in Resources */ = {isa = PBXBuildFile; fileRef = 811B404220E18F7500619772 /* vu.png */; };
 		811B413E20E18F7600619772 /* tj.png in Resources */ = {isa = PBXBuildFile; fileRef = 811B404320E18F7500619772 /* tj.png */; };
+		816F000720E41F39002F186F /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 816F000520E41F38002F186F /* Food101.mlmodel */; };
+		816F000820E41F39002F186F /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -534,6 +536,8 @@
 		811B404120E18F7500619772 /* wf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wf.png; sourceTree = "<group>"; };
 		811B404220E18F7500619772 /* vu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vu.png; sourceTree = "<group>"; };
 		811B404320E18F7500619772 /* tj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tj.png; sourceTree = "<group>"; };
+		816F000520E41F38002F186F /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
+		816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -566,12 +570,14 @@
 		811B3F2920E0AB6E00619772 /* FlagAppV2 */ = {
 			isa = PBXGroup;
 			children = (
-				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
 				811B3F4220E1705900619772 /* secondViewController.swift */,
+				816F000520E41F38002F186F /* Food101.mlmodel */,
+				816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */,
 				811B3F4420E181BE00619772 /* ThirdViewController.swift */,
 				811B3F2A20E0AB6E00619772 /* AppDelegate.swift */,
 				811B3F2C20E0AB6E00619772 /* FirstViewController.swift */,
 				811B3F3020E0AB6E00619772 /* Main.storyboard */,
+				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
 				811B3F3E20E168DD00619772 /* flagTableViewController.swift */,
 				811B3F3320E0AB6F00619772 /* Assets.xcassets */,
 				811B3F3520E0AB6F00619772 /* LaunchScreen.storyboard */,
@@ -1163,9 +1169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816F000720E41F39002F186F /* Food101.mlmodel in Sources */,
 				811B3F3F20E168DD00619772 /* flagTableViewController.swift in Sources */,
 				811B3F2B20E0AB6E00619772 /* AppDelegate.swift in Sources */,
 				811B3F4120E16DC200619772 /* flagItemTableViewCell.swift in Sources */,
+				816F000820E41F39002F186F /* UIImage+PixelBuffer.swift in Sources */,
 				811B3F4320E1705900619772 /* secondViewController.swift in Sources */,
 				811B3F4520E181BE00619772 /* ThirdViewController.swift in Sources */,
 				811B3F2D20E0AB6E00619772 /* FirstViewController.swift in Sources */,
