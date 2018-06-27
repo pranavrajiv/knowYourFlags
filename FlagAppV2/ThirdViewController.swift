@@ -37,8 +37,30 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        selectedImage.image = UIImage(named: counToFlagDict[flags[indexOfFlag]]![0] + ".png")
+
         selectedItem.text = flags[indexOfFlag]
-        selectedImage.image = UIImage(named: counToFlagDict[flags[indexOfFlag]]! + ".png")
+
+        popu.text = counToFlagDict[flags[indexOfFlag]]![1]
+        
+        capi.text = counToFlagDict[flags[indexOfFlag]]![6]
+        
+        curr.text = counToFlagDict[flags[indexOfFlag]]![4]
+        
+        inco.text = counToFlagDict[flags[indexOfFlag]]![3]
+        
+        area.text = counToFlagDict[flags[indexOfFlag]]![5]
+        
+        regi.text = counToFlagDict[flags[indexOfFlag]]![2]
+
+        lang.text = counToFlagDict[flags[indexOfFlag]]![7]
+        
+        
+        
+        
+        
+        
+        
         
         
         // Do any additional setup after loading the view.

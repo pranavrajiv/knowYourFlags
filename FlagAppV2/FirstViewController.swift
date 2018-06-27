@@ -10,7 +10,7 @@ import UIKit
 
 var flags = [String]()
 
-var counToFlagDict = [String: String]()
+var counToFlagDict = [String: [String]]()
 
 var indexOfFlag = 0
 
@@ -30,6 +30,8 @@ class FirstViewController: UIViewController {
         
         for itemm in csvRows
         {
+            
+            var tempList = [String]()
             //removes the headers
             if(count != 0)
             {
@@ -41,17 +43,38 @@ class FirstViewController: UIViewController {
                 //stores the name of the country
                 let temp  = String(substr)
                 
-                var temp2 = itemm[0][index...]
-                //remove the coma after the actual country name
+                //capture the rest of the information from the file
+               
+               var temp2 = itemm[0][index...]
+               //print("temp2 = ",temp2)
+                for _ in 1...7
+                {
+                    
+                    //remove the coma after the actual country name
+                    temp2.remove(at: temp2.startIndex)
+                    index = temp2.index(of: ",")!
+        
+                    substr = temp2.prefix(upTo: index)
+                    tempList.append(String(substr))
+                    temp2 = temp2[index...]
+                
+                
+                }
+                
+                //for parsing the location
                 temp2.remove(at: temp2.startIndex)
+                tempList.append(String(temp2))
                 
                 
-                index = temp2.index(of: ",")!
-                substr = temp2.prefix(upTo: index)
-                counToFlagDict[temp] = String(substr)
-                //print("substr= ",counToFlagDict[temp])
+                counToFlagDict[temp] = tempList
+                
+                
             }
-            count = 1
+            count = count + 1
+            //if(count == 2)
+            //{
+                //break
+            //}
         }
         
         

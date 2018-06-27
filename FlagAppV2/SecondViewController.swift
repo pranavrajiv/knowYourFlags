@@ -53,7 +53,7 @@ class secondViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as!  flagItemTableViewCell
 
         cell.myLabel.text =  flags[indexPath.row]
-        cell.myImage.image = UIImage(named: counToFlagDict[flags[indexPath.row]]! + ".png")
+        cell.myImage.image = UIImage(named: counToFlagDict[flags[indexPath.row]]![0] + ".png")
         
         
         
