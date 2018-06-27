@@ -14,19 +14,19 @@ var counToFlagDict = [String: [String]]()
 
 var indexOfFlag = 0
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
     @IBOutlet weak var picTaken: UIImageView!
     
     @IBOutlet weak var detectLabel: UILabel!
     
-   
+    
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         detectLabel.text = "Hello"
+         //detectLabel.text = "Hello"
         
         var data = readDataFromCSV(fileName: "countries", fileType: "csv")
         data = cleanRows(file: data!)
@@ -83,18 +83,101 @@ class FirstViewController: UIViewController {
                 //break
             //}
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
+    
+    
+    
+    
+    @IBAction func selectImageButton(_ sender: Any) {
+        let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        let imagePickerView = UIImagePickerController()
+        imagePickerView.delegate = self
+        
+        alert.addAction(UIAlertAction(title: "Choose Image", style: .default) { _ in
+            imagePickerView.sourceType = .photoLibrary
+            self.present(imagePickerView, animated: true, completion: nil)
+        })
+        
+        alert.addAction(UIAlertAction(title: "Take Image", style: .default) { _ in
+            imagePickerView.sourceType = .camera
+            self.present(imagePickerView, animated: true, completion: nil)
+        })
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]) {
+        dismiss(animated: true, completion: nil)
+        
+        
+        
+        
+        
+        
+        let url = URL(string: "file:///Users/pranav/Desktop/test_image.jpg")
+        let data = try? Data(contentsOf: url!)
+        
+        let image = UIImage(data : data!)
+        
+        
+        
+        
+        //guard let image = info["UIImagePickerControllerOriginalImage"] as? UIImage else {
+        //  return
+        //}
+        
+        processImage(image!)
+    }
+    
+    func processImage(_ imageTake: UIImage) {
+        let model = Food101()
+        let size = CGSize(width: 224, height: 224)
+        
+        guard let buffer = imageTake.resize(to: size)?.pixelBuffer() else {
+            fatalError("Scaling or converting to pixel buffer failed!")
+        }
+        
+        guard let result = try? model.prediction(Placeholder__0: buffer) else {
+            fatalError("Prediction failed!")
+        }
+        
+        let confidence = result.final_result__0["\(result.classLabel)"]! * 100.0
+        let converted = String(format: "%.2f", confidence)
+        
+        picTaken.image = imageTake
+        detectLabel.text = "\(result.classLabel) - \(converted) %"
+        
+        
+        //knowMorebuttonSetProp.backgroundColor = .blue
+        //knowMorebuttonSetProp.setTitle("Know more about \(result.classLabel) ", for: .normal)
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
