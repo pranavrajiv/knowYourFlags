@@ -42,7 +42,19 @@ class ThirdViewController: UIViewController {
 
         selectedItem.text = flags[indexOfFlag]
 
-        popu.text = counToFlagDict[flags[indexOfFlag]]![1]
+        
+        
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = NumberFormatter.Style.decimal
+        
+        
+        
+        if let myIntegerPopu = Int(counToFlagDict[flags[indexOfFlag]]![1])
+        {
+            let myNumberPopu = NSNumber(value:myIntegerPopu)
+            let formattedNumberPopu = numberFormatter.string(from: myNumberPopu)
+            popu.text = formattedNumberPopu
+        }
         
         capi.text = counToFlagDict[flags[indexOfFlag]]![6]
         
@@ -50,7 +62,13 @@ class ThirdViewController: UIViewController {
         
         inco.text = counToFlagDict[flags[indexOfFlag]]![3]
         
-        area.text = counToFlagDict[flags[indexOfFlag]]![5]
+        if let myIntegerArea = Int(counToFlagDict[flags[indexOfFlag]]![5])
+        {
+            let myNumberArea = NSNumber(value:myIntegerArea)
+            let formattedNumberArea = numberFormatter.string(from: myNumberArea)
+            area.text = formattedNumberArea
+        }
+        
         
         regi.text = counToFlagDict[flags[indexOfFlag]]![2]
 
