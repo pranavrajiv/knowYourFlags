@@ -10,6 +10,7 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    
     @IBOutlet weak var selectedItem: UILabel!
     
     @IBOutlet weak var selectedImage: UIImageView!
@@ -53,12 +54,14 @@ class ThirdViewController: UIViewController {
         
         regi.text = counToFlagDict[flags[indexOfFlag]]![2]
 
+        regi.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'
+        regi.numberOfLines = 0
+        
         lang.text = counToFlagDict[flags[indexOfFlag]]![7]
         
-        
-        
-        
-        
+        lang.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'
+        lang.numberOfLines = 0
+       
         
         
         

@@ -75,8 +75,13 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
                 
                 }
                 
-                //for parsing the location
+                //for parsing the languages
                 temp2.remove(at: temp2.startIndex)
+                if temp2.count > 0
+                {
+                    temp2.remove(at: temp2.startIndex)
+                    temp2.removeLast()
+                }
                 tempList.append(String(temp2))
                 
                 
