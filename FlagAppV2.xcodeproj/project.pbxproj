@@ -12,7 +12,6 @@
 		811B3F3220E0AB6E00619772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811B3F3020E0AB6E00619772 /* Main.storyboard */; };
 		811B3F3420E0AB6F00619772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811B3F3320E0AB6F00619772 /* Assets.xcassets */; };
 		811B3F3720E0AB6F00619772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811B3F3520E0AB6F00619772 /* LaunchScreen.storyboard */; };
-		811B3F3F20E168DD00619772 /* flagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F3E20E168DD00619772 /* flagTableViewController.swift */; };
 		811B3F4120E16DC200619772 /* flagItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */; };
 		811B3F4320E1705900619772 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F4220E1705900619772 /* secondViewController.swift */; };
 		811B3F4520E181BE00619772 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B3F4420E181BE00619772 /* ThirdViewController.swift */; };
@@ -280,7 +279,6 @@
 		811B3F3320E0AB6F00619772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811B3F3620E0AB6F00619772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811B3F3820E0AB6F00619772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		811B3F3E20E168DD00619772 /* flagTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagTableViewController.swift; sourceTree = "<group>"; };
 		811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagItemTableViewCell.swift; sourceTree = "<group>"; };
 		811B3F4220E1705900619772 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		811B3F4420E181BE00619772 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -578,7 +576,6 @@
 				811B3F2C20E0AB6E00619772 /* FirstViewController.swift */,
 				811B3F3020E0AB6E00619772 /* Main.storyboard */,
 				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
-				811B3F3E20E168DD00619772 /* flagTableViewController.swift */,
 				811B3F3320E0AB6F00619772 /* Assets.xcassets */,
 				811B3F3520E0AB6F00619772 /* LaunchScreen.storyboard */,
 				811B3F3820E0AB6F00619772 /* Info.plist */,
@@ -1170,7 +1167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				816F000720E41F39002F186F /* Food101.mlmodel in Sources */,
-				811B3F3F20E168DD00619772 /* flagTableViewController.swift in Sources */,
 				811B3F2B20E0AB6E00619772 /* AppDelegate.swift in Sources */,
 				811B3F4120E16DC200619772 /* flagItemTableViewCell.swift in Sources */,
 				816F000820E41F39002F186F /* UIImage+PixelBuffer.swift in Sources */,
