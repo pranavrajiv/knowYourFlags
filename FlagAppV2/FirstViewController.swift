@@ -130,7 +130,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         
         
-        let url = URL(string: "file:///Users/pranav/Desktop/mex.jpeg")
+        let url = URL(string: "file:///Users/pranav/Desktop/ger.jpg")
         let data = try? Data(contentsOf: url!)
         
         let image = UIImage(data : data!)
@@ -146,7 +146,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     func processImage(_ imageTake: UIImage) {
-        let model = InceptionV22()
+        let model = flag()
         let size = CGSize(width: 224, height: 224)
         
         guard let buffer = imageTake.resize(to: size)?.pixelBuffer() else {
