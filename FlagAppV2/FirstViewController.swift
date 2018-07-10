@@ -130,7 +130,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         
         
-        let url = URL(string: "file:///Users/pranav/Desktop/ger.jpg")
+        let url = URL(string: "file:///Users/pranav/Desktop/IMG_5353.JPG")
         let data = try? Data(contentsOf: url!)
         
         let image = UIImage(data : data!)
@@ -160,15 +160,27 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         let confidence = result.final_result__0["\(result.classLabel)"]! * 100.0
         let converted = String(format: "%.2f", confidence)
         
+        
+        if result.classLabel == "united states of america and united states minor outlying islands"
+        {
+            predictionLabel = "united states of america"
+        }
+        else
+        {
+            predictionLabel = result.classLabel
+        }
+        
+        
+        
         picTaken.image = imageTake
-        detectLabel.text = "\(result.classLabel) - \(converted) %"
+        detectLabel.text = "\(predictionLabel) - \(converted) %"
         
         
         knowMorebuttonSetProp.backgroundColor = .yellow
-        knowMorebuttonSetProp.setTitle("Know more about \(result.classLabel) ?", for: .normal)
+        knowMorebuttonSetProp.setTitle("Know more about \(predictionLabel) ?", for: .normal)
         
-        predictionLabel = result.classLabel
-        
+        print("predictionLabel = ",predictionLabel)
+        print("result.classLabel = ",result.classLabel)
         
     }
     

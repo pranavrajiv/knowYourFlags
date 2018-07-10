@@ -268,7 +268,6 @@
 		811B413D20E18F7600619772 /* vu.png in Resources */ = {isa = PBXBuildFile; fileRef = 811B404220E18F7500619772 /* vu.png */; };
 		811B413E20E18F7600619772 /* tj.png in Resources */ = {isa = PBXBuildFile; fileRef = 811B404320E18F7500619772 /* tj.png */; };
 		816F000820E41F39002F186F /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */; };
-		81E239BE20F4512400676E8B /* InceptionV222.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 81E239BD20F4512400676E8B /* InceptionV222.mlmodel */; };
 		81E239C020F51DE400676E8B /* flag.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 81E239BF20F51DE400676E8B /* flag.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -536,7 +535,6 @@
 		811B404220E18F7500619772 /* vu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vu.png; sourceTree = "<group>"; };
 		811B404320E18F7500619772 /* tj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tj.png; sourceTree = "<group>"; };
 		816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
-		81E239BD20F4512400676E8B /* InceptionV222.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = InceptionV222.mlmodel; path = ../InceptionV222.mlmodel; sourceTree = "<group>"; };
 		81E239BF20F51DE400676E8B /* flag.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = flag.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -570,7 +568,6 @@
 		811B3F2920E0AB6E00619772 /* FlagAppV2 */ = {
 			isa = PBXGroup;
 			children = (
-				81E239BD20F4512400676E8B /* InceptionV222.mlmodel */,
 				81E239BF20F51DE400676E8B /* flag.mlmodel */,
 				811B3F2A20E0AB6E00619772 /* AppDelegate.swift */,
 				811B3F3320E0AB6F00619772 /* Assets.xcassets */,
@@ -1170,7 +1167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				811B3F2B20E0AB6E00619772 /* AppDelegate.swift in Sources */,
-				81E239BE20F4512400676E8B /* InceptionV222.mlmodel in Sources */,
 				811B3F4120E16DC200619772 /* flagItemTableViewCell.swift in Sources */,
 				816F000820E41F39002F186F /* UIImage+PixelBuffer.swift in Sources */,
 				811B3F4320E1705900619772 /* secondViewController.swift in Sources */,
