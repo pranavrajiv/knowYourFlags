@@ -269,6 +269,7 @@
 		811B413E20E18F7600619772 /* tj.png in Resources */ = {isa = PBXBuildFile; fileRef = 811B404320E18F7500619772 /* tj.png */; };
 		816F000720E41F39002F186F /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 816F000520E41F38002F186F /* Food101.mlmodel */; };
 		816F000820E41F39002F186F /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */; };
+		81E239BB20F432FB00676E8B /* InceptionV22.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 81E239BA20F432FB00676E8B /* InceptionV22.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -536,6 +537,7 @@
 		811B404320E18F7500619772 /* tj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tj.png; sourceTree = "<group>"; };
 		816F000520E41F38002F186F /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 		816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
+		81E239BA20F432FB00676E8B /* InceptionV22.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = InceptionV22.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -568,19 +570,20 @@
 		811B3F2920E0AB6E00619772 /* FlagAppV2 */ = {
 			isa = PBXGroup;
 			children = (
-				811B3F4220E1705900619772 /* secondViewController.swift */,
-				816F000520E41F38002F186F /* Food101.mlmodel */,
-				816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */,
-				811B3F4420E181BE00619772 /* ThirdViewController.swift */,
+				81E239BA20F432FB00676E8B /* InceptionV22.mlmodel */,
 				811B3F2A20E0AB6E00619772 /* AppDelegate.swift */,
-				811B3F2C20E0AB6E00619772 /* FirstViewController.swift */,
-				811B3F3020E0AB6E00619772 /* Main.storyboard */,
-				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
 				811B3F3320E0AB6F00619772 /* Assets.xcassets */,
-				811B3F3520E0AB6F00619772 /* LaunchScreen.storyboard */,
-				811B3F3820E0AB6F00619772 /* Info.plist */,
 				811B3F4620E18F5700619772 /* countries.csv */,
+				811B3F2C20E0AB6E00619772 /* FirstViewController.swift */,
+				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
 				811B3F4820E18F7500619772 /* flags */,
+				816F000520E41F38002F186F /* Food101.mlmodel */,
+				811B3F3820E0AB6F00619772 /* Info.plist */,
+				811B3F3520E0AB6F00619772 /* LaunchScreen.storyboard */,
+				811B3F3020E0AB6E00619772 /* Main.storyboard */,
+				811B3F4220E1705900619772 /* secondViewController.swift */,
+				811B3F4420E181BE00619772 /* ThirdViewController.swift */,
+				816F000620E41F39002F186F /* UIImage+PixelBuffer.swift */,
 			);
 			path = FlagAppV2;
 			sourceTree = "<group>";
@@ -1173,6 +1176,7 @@
 				811B3F4320E1705900619772 /* secondViewController.swift in Sources */,
 				811B3F4520E181BE00619772 /* ThirdViewController.swift in Sources */,
 				811B3F2D20E0AB6E00619772 /* FirstViewController.swift in Sources */,
+				81E239BB20F432FB00676E8B /* InceptionV22.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
