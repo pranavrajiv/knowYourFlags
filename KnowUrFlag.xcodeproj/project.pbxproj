@@ -878,7 +878,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 811B3F2220E0AB6E00619772 /* Build configuration list for PBXProject "FlagAppV2" */;
+			buildConfigurationList = 811B3F2220E0AB6E00619772 /* Build configuration list for PBXProject "KnowUrFlag" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1353,7 +1353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		811B3F2220E0AB6E00619772 /* Build configuration list for PBXProject "FlagAppV2" */ = {
+		811B3F2220E0AB6E00619772 /* Build configuration list for PBXProject "KnowUrFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				811B3F3920E0AB6F00619772 /* Debug */,
