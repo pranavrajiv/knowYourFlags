@@ -130,7 +130,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         
         
-        let url = URL(string: "file:///Users/pranav/Desktop/IMG_5353.JPG")
+        let url = URL(string: "file:///Users/pranav/Desktop/italy.jpg")
         let data = try? Data(contentsOf: url!)
         
         let image = UIImage(data : data!)
