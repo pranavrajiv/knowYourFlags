@@ -38,9 +38,9 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        selectedImage.image = UIImage(named: counToFlagDict[flags[indexOfFlag]]![0] + ".png")
+        selectedImage.image = UIImage(named: counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![0] + ".png")
 
-        selectedItem.text = flags[indexOfFlag]
+        selectedItem.text = flagsFiltered[indexOfFlag]
 
         
         
@@ -49,20 +49,20 @@ class ThirdViewController: UIViewController {
         
         
         
-        if let myIntegerPopu = Int(counToFlagDict[flags[indexOfFlag]]![1])
+        if let myIntegerPopu = Int(counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![1])
         {
             let myNumberPopu = NSNumber(value:myIntegerPopu)
             let formattedNumberPopu = numberFormatter.string(from: myNumberPopu)
             popu.text = formattedNumberPopu
         }
         
-        capi.text = counToFlagDict[flags[indexOfFlag]]![6]
+        capi.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![6]
         
-        curr.text = counToFlagDict[flags[indexOfFlag]]![4]
+        curr.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![4]
         
-        inco.text = counToFlagDict[flags[indexOfFlag]]![3]
+        inco.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![3]
         
-        if let myIntegerArea = Int(counToFlagDict[flags[indexOfFlag]]![5])
+        if let myIntegerArea = Int(counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![5])
         {
             let myNumberArea = NSNumber(value:myIntegerArea)
             let formattedNumberArea = numberFormatter.string(from: myNumberArea)
@@ -70,12 +70,12 @@ class ThirdViewController: UIViewController {
         }
         
         
-        regi.text = counToFlagDict[flags[indexOfFlag]]![2]
+        regi.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![2]
 
         regi.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'
         regi.numberOfLines = 0
         
-        lang.text = counToFlagDict[flags[indexOfFlag]]![7]
+        lang.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![7]
         
         lang.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'
         lang.numberOfLines = 0

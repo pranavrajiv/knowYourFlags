@@ -9,13 +9,17 @@
 import UIKit
 
 
-class secondViewController: UITableViewController {
+
+var flagsFiltered = flags
+var counToFlagDictFiltered = counToFlagDict
+
+class secondViewController: UITableViewController,UISearchBarDelegate {
+    @IBOutlet weak var srchBr: UISearchBar!
+    
+    @IBOutlet var tableViewing: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //loadSampleFlags()
-        
-        
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -40,7 +44,7 @@ class secondViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return (flags.count)
+        return (flagsFiltered.count)
     }
   
 
@@ -48,8 +52,8 @@ class secondViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as!  flagItemTableViewCell
 
-        cell.myLabel.text =  flags[indexPath.row]
-        cell.myImage.image = UIImage(named: counToFlagDict[flags[indexPath.row]]![0] + ".png")
+        cell.myLabel.text =  flagsFiltered[indexPath.row]
+        cell.myImage.image = UIImage(named: counToFlagDictFiltered[flagsFiltered[indexPath.row]]![0] + ".png")
         
         
         
@@ -65,4 +69,40 @@ class secondViewController: UITableViewController {
         indexOfFlag = indexPath.row
         performSegue(withIdentifier: "segue", sender: self)
     }
+    
+    
+    
+    func searchBar(_ searchBar: UISearchBar,textDidChange searchText: String)
+    {
+        
+     
+        flagsFiltered = flags
+        counToFlagDictFiltered = counToFlagDict
+        
+        if(searchText != "")
+        {
+            flagsFiltered = flags.filter({fla -> Bool in
+            return fla.contains(searchText)
+            })
+        
+            //print("filteredtFlags = ",flagsFiltered)
+            
+            
+            for (ite,_) in counToFlagDict
+            {
+                if !flagsFiltered.contains(ite)
+                {
+                    counToFlagDictFiltered.removeValue(forKey: ite)
+                }
+            }
+          
+        }
+     
+            
+        tableViewing.reloadData()
+    }
+    
+    
+    
+    
 }
