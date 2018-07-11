@@ -179,8 +179,8 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         knowMorebuttonSetProp.backgroundColor = .yellow
         knowMorebuttonSetProp.setTitle("Know more about \(predictionLabel) ?", for: .normal)
         
-        print("predictionLabel = ",predictionLabel)
-        print("result.classLabel = ",result.classLabel)
+        //print("predictionLabel = ",predictionLabel)
+        //print("result.classLabel = ",result.classLabel)
         
     }
     

@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-1114" y="0.0"/>
         </scene>
-        <!--First-->
+        <!--Camera-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="FlagAppV2" customModuleProvider="target" sceneMemberID="viewController">
@@ -67,7 +67,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="ixQ-Cg-IPl"/>
                     <connections>
                         <outlet property="detectLabel" destination="AXz-w7-Yeb" id="z00-zt-Tru"/>
@@ -77,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.5999999999999" y="-512.29385307346331"/>
+            <point key="canvasLocation" x="1438" y="-725"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="ujN-01-ONY">
@@ -305,9 +305,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWt-gx-iiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2828" y="-0.44977511244377816"/>
+            <point key="canvasLocation" x="2810" y="0.0"/>
         </scene>
-        <!--Countries-->
+        <!--Flags-->
         <scene sceneID="Vth-u0-AZd">
             <objects>
                 <tableViewController id="4pw-z8-h3B" customClass="secondViewController" customModule="FlagAppV2" customModuleProvider="target" sceneMemberID="viewController">
@@ -358,7 +358,7 @@
                             <outlet property="delegate" destination="4pw-z8-h3B" id="r4p-qI-1pd"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Countries" id="drs-HB-CQa"/>
+                    <tabBarItem key="tabBarItem" title="Flags" image="flags" id="drs-HB-CQa"/>
                     <connections>
                         <outlet property="srchBr" destination="myV-KR-5um" id="hD8-C6-5zd"/>
                         <outlet property="tableViewing" destination="LtN-gU-1Le" id="ea3-8g-U4e"/>
@@ -367,7 +367,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PfR-MJ-y8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2332" y="768"/>
+            <point key="canvasLocation" x="1438" y="0.0"/>
         </scene>
         <!--About-->
         <scene sceneID="U25-Fd-QLG">
@@ -389,11 +389,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="yLt-lE-v3m"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" landscapeImage="first" id="ZuR-hr-YXo"/>
+                    <tabBarItem key="tabBarItem" title="About" image="about" landscapeImage="first" id="ZuR-hr-YXo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kPG-BK-4Ke" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.5999999999999" y="1117.6911544227887"/>
+            <point key="canvasLocation" x="1438" y="802"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -407,8 +407,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="BBi-nJ-e7e" kind="relationship" relationship="viewControllers" id="J1b-te-m7P"/>
                         <segue destination="4pw-z8-h3B" kind="relationship" relationship="viewControllers" id="hKn-4w-enl"/>
+                        <segue destination="BBi-nJ-e7e" kind="relationship" relationship="viewControllers" id="J1b-te-m7P"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -417,9 +417,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="about" width="612" height="792"/>
+        <image name="camera" width="612" height="792"/>
         <image name="first" width="30" height="30"/>
+        <image name="flags" width="612" height="792"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TFQ-cJ-zv7"/>
+        <segue reference="UMW-18-mCe"/>
     </inferredMetricsTieBreakers>
 </document>
