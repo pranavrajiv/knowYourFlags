@@ -372,12 +372,12 @@
         <!--About-->
         <scene sceneID="U25-Fd-QLG">
             <objects>
-                <viewController id="BBi-nJ-e7e" sceneMemberID="viewController">
+                <viewController id="BBi-nJ-e7e" customClass="about" customModule="FlagAppV2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" tag="-1" contentMode="scaleToFill" id="zRe-ej-0uM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi my name is Pranav Rajiv" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYR-U5-9bI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYR-U5-9bI">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -390,10 +390,13 @@
                         <viewLayoutGuide key="safeArea" id="yLt-lE-v3m"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="about" landscapeImage="first" id="ZuR-hr-YXo"/>
+                    <connections>
+                        <outlet property="aboutText" destination="CYR-U5-9bI" id="WWd-zi-K54"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kPG-BK-4Ke" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="802"/>
+            <point key="canvasLocation" x="1437.5999999999999" y="801.94902548725645"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
