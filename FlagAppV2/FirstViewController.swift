@@ -130,19 +130,19 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         
         
-        let url = URL(string: "file:///Users/pranav/Desktop/IMG_5440.JPG")
-        let data = try? Data(contentsOf: url!)
+       // let url = URL(string: "file:///Users/pranav/Desktop/IMG_5440.JPG")
+       // let data = try? Data(contentsOf: url!)
         
-        let image = UIImage(data : data!)
-        
-        
+        //let image = UIImage(data : data!)
         
         
-        //guard let image = info["UIImagePickerControllerOriginalImage"] as? UIImage else {
-        //  return
-        //}
         
-        processImage(image!)
+        
+        guard let image = info["UIImagePickerControllerOriginalImage"] as? UIImage else {
+          return
+        }
+        
+        processImage(image)
     }
     
     func processImage(_ imageTake: UIImage) {
