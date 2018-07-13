@@ -130,7 +130,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         
         
-        let url = URL(string: "file:///Users/pranav/Desktop/italy.jpg")
+        let url = URL(string: "file:///Users/pranav/Desktop/IMG_5440.JPG")
         let data = try? Data(contentsOf: url!)
         
         let image = UIImage(data : data!)
@@ -170,14 +170,15 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
             predictionLabel = result.classLabel
         }
         
-        
+        setIndexOfFlag(String(predictionLabel))
         
         picTaken.image = imageTake
-        detectLabel.text = "\(predictionLabel) - \(converted) %"
+        detectLabel.text = "\(flagsFiltered[indexOfFlag]) - \(converted) %"
         
         
         knowMorebuttonSetProp.backgroundColor = .yellow
-        knowMorebuttonSetProp.setTitle("Know more about \(predictionLabel) ?", for: .normal)
+        
+        knowMorebuttonSetProp.setTitle("Know more about \(flagsFiltered[indexOfFlag]) ?", for: .normal)
         
         //print("predictionLabel = ",predictionLabel)
         //print("result.classLabel = ",result.classLabel)
@@ -193,8 +194,8 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         for item in flags
         {
-            print("item.lowercased() = ", item.lowercased())
-            print("result.classLabel.lowercased() = ", flagName.lowercased())
+            //print("item.lowercased() = ", item.lowercased())
+            //print("result.classLabel.lowercased() = ", flagName.lowercased())
             if(item.lowercased()  == flagName.lowercased() )
             {
                 indexOfFlag = counter
