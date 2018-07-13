@@ -4,22 +4,33 @@
 //
 //  Created by Pranav on 6/24/18.
 //  Copyright © 2018 Pranav. All rights reserved.
+//  This file takes care of the loading the csv data of the countries and the first page that you see when the app opens up
 //
 
 import UIKit
 
+//array of strings that stores the names of all the flags
 var flags = [String]()
 
+//dictionary which connects the name of the flags to an array of strings that stores different things about the country
 var counToFlagDict = [String: [String]]()
 
+//Indexing variable used to see what flag in the array of flags the user clicked from the table of flags or based on the image taken by the user
 var indexOfFlag = 0
 
-var predictionLabel = "USA"
+
+//variable that stores the name of the country
+var predictionLabel = "India"
 
 class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
+    
+    //the picture taken
     @IBOutlet weak var picTaken: UIImageView!
     
+    //the label of the picture taken
     @IBOutlet weak var detectLabel: UILabel!
+    
+    //button that lets you know more about the flag
     @IBOutlet weak var knowMorebuttonSetProp: UIButton!
     
     @IBAction func knowMoreButton(_ sender: Any) {
@@ -33,8 +44,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         //detectLabel.text = "Hello"
-        
+        //stores data from the CSV file about all the countries
         var data = readDataFromCSV(fileName: "countries", fileType: "csv")
         data = cleanRows(file: data!)
         let csvRows = csv(data: data!)
@@ -49,7 +59,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
             //removes the headers
             if(count != 0)
             {
-                //print(itemm,"\n\n")
+               
                 var index = itemm[0].index(of: ",")!
                 var substr = itemm[0].prefix(upTo: index)
                 flags.append(String(substr))
@@ -60,7 +70,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
                 //capture the rest of the information from the file
                
                var temp2 = itemm[0][index...]
-               //print("temp2 = ",temp2)
+            
                 for _ in 1...7
                 {
                     
@@ -75,7 +85,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
                 
                 }
                 
-                //for parsing the languages
+                //for parsing the languages (the last column in each row)
                 temp2.remove(at: temp2.startIndex)
                 if temp2.count > 0
                 {
@@ -83,10 +93,8 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
                     temp2.removeLast()
                 }
                 tempList.append(String(temp2))
-                
-                
+            
                 counToFlagDict[temp] = tempList
-                
                 
             }
             count = 1
@@ -98,7 +106,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     
     
     
-    
+    //function that lets you select an image from the gallery or from the camera
     @IBAction func selectImageButton(_ sender: Any) {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         let imagePickerView = UIImagePickerController()
@@ -118,26 +126,24 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         self.present(alert, animated: true, completion: nil)
     }
     
+    
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }
     
+    
+    
+    
+    
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]) {
         dismiss(animated: true, completion: nil)
-        
-        
-        
-        
-        
-        
+  
        // let url = URL(string: "file:///Users/pranav/Desktop/IMG_5440.JPG")
        // let data = try? Data(contentsOf: url!)
         
         //let image = UIImage(data : data!)
-        
-        
-        
-        
+      
         guard let image = info["UIImagePickerControllerOriginalImage"] as? UIImage else {
           return
         }
@@ -145,6 +151,9 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         processImage(image)
     }
     
+    
+    
+    //fucntion that call the Core ML model to predict the name of the country the flag is from
     func processImage(_ imageTake: UIImage) {
         let model = flag()
         let size = CGSize(width: 224, height: 224)
@@ -179,23 +188,18 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         knowMorebuttonSetProp.backgroundColor = .yellow
         
         knowMorebuttonSetProp.setTitle("Know more about \(flagsFiltered[indexOfFlag]) ?", for: .normal)
-        
-        //print("predictionLabel = ",predictionLabel)
-        //print("result.classLabel = ",result.classLabel)
+
         
     }
     
     
-    
+    //Function used to set what flag in the array of flags the user clicked from the table of flags or based on the image taken by the user
     func setIndexOfFlag(_ flagName: String)
     {
-        
         var counter = 0
-        
         for item in flags
         {
-            //print("item.lowercased() = ", item.lowercased())
-            //print("result.classLabel.lowercased() = ", flagName.lowercased())
+
             if(item.lowercased()  == flagName.lowercased() )
             {
                 indexOfFlag = counter
@@ -206,27 +210,13 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-    
+    //read data from CSV file
     func readDataFromCSV(fileName:String, fileType: String)-> String!{
         guard let filepath = Bundle.main.path(forResource: fileName, ofType: fileType)
             else {
@@ -242,6 +232,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         }
     }
     
+    //clean the rows of the csv data
     func cleanRows(file:String)->String{
         var cleanFile = file
         cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
@@ -261,8 +252,6 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         }
         return result
     }
-    
- 
 
 }
 
