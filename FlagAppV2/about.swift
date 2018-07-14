@@ -16,9 +16,9 @@ class about: UIViewController {
 
         
         //text in the "about" tab
-        aboutText.text = "This is an IOS app that has Core ML machine learning model on the backend trained using tensorflow which help you identify flags of every country in the world using pictures taken of the flag from your camera or by using the once present in the camera roll."
+        aboutText.text = "This is an IOS app that has a Core ML machine learning model in the backend trained using Tensorflow which help you identify flags of every country in the world from pictures of flags taken from your camera or the once present in your camera roll."
         
-        aboutText.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'
+        aboutText.lineBreakMode = .byWordWrapping
         aboutText.numberOfLines = 0
         
         // Do any additional setup after loading the view.

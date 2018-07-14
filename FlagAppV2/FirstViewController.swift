@@ -191,7 +191,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         knowMorebuttonSetProp.backgroundColor = .yellow
         
-        knowMorebuttonSetProp.setTitle("  I would like to know more  ", for: .normal)
+        knowMorebuttonSetProp.setTitle("  Want to know more about \(flags[indexOfFlag]) ?  ", for: .normal)
         
         knowMorebuttonSetProp.sizeToFit()
         knowMorebuttonSetProp.layer.cornerRadius =  10
