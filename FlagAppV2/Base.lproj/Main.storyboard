@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QR-0G-Xjt">
-                                <rect key="frame" x="16" y="398" width="343" height="30"/>
+                                <rect key="frame" x="85" y="377" width="148" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="knowMoreButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="YtD-tA-2jx"/>
@@ -77,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="-725"/>
+            <point key="canvasLocation" x="1437.5999999999999" y="-725.48725637181417"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="ujN-01-ONY">
@@ -377,26 +377,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vdo-tl-dKV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYR-U5-9bI">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="h5r-YV-zje">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYR-U5-9bI">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="CYR-U5-9bI" firstAttribute="trailing" secondItem="yLt-lE-v3m" secondAttribute="trailing" id="1Nl-nC-Wgn"/>
+                            <constraint firstItem="CYR-U5-9bI" firstAttribute="bottom" secondItem="yLt-lE-v3m" secondAttribute="bottom" id="aOa-nz-OUx"/>
+                            <constraint firstItem="CYR-U5-9bI" firstAttribute="leading" secondItem="yLt-lE-v3m" secondAttribute="leading" id="blR-dr-zag"/>
+                            <constraint firstItem="CYR-U5-9bI" firstAttribute="top" secondItem="yLt-lE-v3m" secondAttribute="top" id="cxX-Ir-sjy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yLt-lE-v3m"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="about" landscapeImage="first" id="ZuR-hr-YXo"/>
