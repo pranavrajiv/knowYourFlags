@@ -28,6 +28,13 @@ class secondViewController: UITableViewController,UISearchBarDelegate {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        flagsFiltered = flags
+        counToFlagDictFiltered = counToFlagDict
+        srchBr.text = ""
+        tableViewing.reloadData()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

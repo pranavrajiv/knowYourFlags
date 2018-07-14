@@ -39,6 +39,10 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     
+    override func viewDidAppear(_ animated: Bool) {
+        flagsFiltered = flags
+        counToFlagDictFiltered = counToFlagDict
+    }
     
     
     override func viewDidLoad() {
@@ -182,12 +186,15 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         setIndexOfFlag(String(predictionLabel))
         
         picTaken.image = imageTake
-        detectLabel.text = "\(flagsFiltered[indexOfFlag]) - \(converted) %"
+        detectLabel.text = "\(flags[indexOfFlag]) - \(converted) %"
         
         
         knowMorebuttonSetProp.backgroundColor = .yellow
         
-        knowMorebuttonSetProp.setTitle("Know more about \(flagsFiltered[indexOfFlag]) ?", for: .normal)
+        knowMorebuttonSetProp.setTitle("Know more about \(flags[indexOfFlag]) ?", for: .normal)
+        
+        flagsFiltered = flags
+        counToFlagDictFiltered = counToFlagDict
 
         
     }
