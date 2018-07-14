@@ -38,8 +38,8 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         knowMorebuttonSetProp.backgroundColor = .yellow
     }
     
-    //called every time the view appears so that counToFlagDictFiltered and flagsFiltered gets updated to prevent the app from picking the wrong indexes due to the changes that might have been made by the search bar in the second view controller
-    override func viewDidAppear(_ animated: Bool) {
+    //called every time the view is about to appear so that counToFlagDictFiltered and flagsFiltered gets updated to prevent the app from picking the wrong indexes due to the changes that might have been made by the search bar in the second view controller
+    override func viewWillAppear(_ animated: Bool) {
         flagsFiltered = flags
         counToFlagDictFiltered = counToFlagDict
     }
