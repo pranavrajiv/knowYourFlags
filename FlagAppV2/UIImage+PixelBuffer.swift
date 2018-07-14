@@ -1,9 +1,6 @@
 //
 //  UIImage+PixelBuffer.swift
-//  Food101Prediction
-//
-//  Created by Philipp Gabriel on 15.02.18.
-//  Copyright © 2018 Philipp Gabriel. All rights reserved.
+//  File that changes the resolution of the image taken by the user so that the CoreMl model can make prediction
 //
 
 import UIKit

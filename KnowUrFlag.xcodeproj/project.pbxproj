@@ -570,16 +570,16 @@
 		811B3F2920E0AB6E00619772 /* FlagAppV2 */ = {
 			isa = PBXGroup;
 			children = (
-				81E239BF20F51DE400676E8B /* flag.mlmodel */,
-				811B3F2A20E0AB6E00619772 /* AppDelegate.swift */,
+				811B3F4820E18F7500619772 /* flags */,
 				811B3F3320E0AB6F00619772 /* Assets.xcassets */,
 				811B3F4620E18F5700619772 /* countries.csv */,
-				811B3F2C20E0AB6E00619772 /* FirstViewController.swift */,
-				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
-				811B3F4820E18F7500619772 /* flags */,
+				81E239BF20F51DE400676E8B /* flag.mlmodel */,
+				811B3F2A20E0AB6E00619772 /* AppDelegate.swift */,
 				811B3F3820E0AB6F00619772 /* Info.plist */,
 				811B3F3520E0AB6F00619772 /* LaunchScreen.storyboard */,
 				811B3F3020E0AB6E00619772 /* Main.storyboard */,
+				811B3F2C20E0AB6E00619772 /* FirstViewController.swift */,
+				811B3F4020E16DC200619772 /* flagItemTableViewCell.swift */,
 				811B3F4220E1705900619772 /* secondViewController.swift */,
 				811B3F4420E181BE00619772 /* ThirdViewController.swift */,
 				815B2FC420F7D74100C708DE /* about.swift */,

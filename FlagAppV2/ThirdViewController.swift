@@ -4,33 +4,37 @@
 //
 //  Created by Pranav on 6/25/18.
 //  Copyright © 2018 Pranav. All rights reserved.
-//
+//  File that displays all the information of the country that the user clicked on
 
 import UIKit
 
 class ThirdViewController: UIViewController {
 
-    
+    //country name
     @IBOutlet weak var selectedItem: UILabel!
     
+    //country flag image
     @IBOutlet weak var selectedImage: UIImageView!
     
+    //country population
     @IBOutlet weak var popu: UILabel!
     
-    
+    //country capital
     @IBOutlet weak var capi: UILabel!
     
-    
+    //country currency
     @IBOutlet weak var curr: UILabel!
     
-    
+    //country income
     @IBOutlet weak var inco: UILabel!
     
+    //country surface area
     @IBOutlet weak var area: UILabel!
     
+    //country region
     @IBOutlet weak var regi: UILabel!
     
-    
+    //country language
     @IBOutlet weak var lang: UILabel!
     
     
@@ -43,7 +47,7 @@ class ThirdViewController: UIViewController {
         selectedItem.text = flagsFiltered[indexOfFlag]
 
         
-        
+        //format the numbers so that there are commas in them
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = NumberFormatter.Style.decimal
         
@@ -69,22 +73,17 @@ class ThirdViewController: UIViewController {
             area.text = formattedNumberArea
         }
         
-        
+        //makes the label value displayed not limited to one line
         regi.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![2]
-
-        regi.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'
+        regi.lineBreakMode = .byWordWrapping
         regi.numberOfLines = 0
         
+        //makes the label value displayed not limited to one line
         lang.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![7]
-        
-        lang.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'
+        lang.lineBreakMode = .byWordWrapping
         lang.numberOfLines = 0
        
-        
-        
-        
-        
-        // Do any additional setup after loading the view.
+
     }
 
     
@@ -92,16 +91,5 @@ class ThirdViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

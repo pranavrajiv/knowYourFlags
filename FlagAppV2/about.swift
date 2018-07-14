@@ -4,7 +4,7 @@
 //
 //  Created by Pranav on 7/12/18.
 //  Copyright © 2018 Pranav. All rights reserved.
-//
+//  File that contains the text contained in the "about" tab
 
 import UIKit
 
@@ -15,7 +15,7 @@ class about: UIViewController {
         super.viewDidLoad()
 
         
-        
+        //text in the "about" tab
         aboutText.text = "This is an IOS app that has Core ML machine learning model on the backend trained using tensorflow which help you identify flags of every country in the world using pictures taken of the flag from your camera or the once present in the camera roll."
         
         aboutText.lineBreakMode = .byWordWrapping // notice the 'b' instead of 'B'

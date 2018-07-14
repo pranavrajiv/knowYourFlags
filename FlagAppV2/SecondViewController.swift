@@ -4,30 +4,31 @@
 //
 //  Created by Pranav on 6/25/18.
 //  Copyright © 2018 Pranav. All rights reserved.
-//
+//  File that contains the seach bar and also the tabular display of the differnt countries in the world
 
 import UIKit
 
 
-
+//copy of the flags string which is used when it is needed to filter out some countries based on the search string in the search bar
 var flagsFiltered = flags
+
+//copy of the counToFlagDict dictionary which is used when it is needed to filter out some countries based on the search string in the search bar
 var counToFlagDictFiltered = counToFlagDict
 
 class secondViewController: UITableViewController,UISearchBarDelegate {
+    
+    //searchbar
     @IBOutlet weak var srchBr: UISearchBar!
     
+    //tablular view
     @IBOutlet var tableViewing: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
+    //called every time the view appears so that counToFlagDictFiltered and flagsFiltered gets updated to prevent the app from picking the wrong indexes due to the changes that might have been made by the search bar in the second view controller
     override func viewDidAppear(_ animated: Bool) {
         flagsFiltered = flags
         counToFlagDictFiltered = counToFlagDict
@@ -58,15 +59,8 @@ class secondViewController: UITableViewController,UISearchBarDelegate {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as!  flagItemTableViewCell
-
         cell.myLabel.text =  flagsFiltered[indexPath.row]
         cell.myImage.image = UIImage(named: counToFlagDictFiltered[flagsFiltered[indexPath.row]]![0] + ".png")
-        
-        
-        
-        
-        // Configure the cell...
-
         return cell
     }
 
@@ -74,26 +68,23 @@ class secondViewController: UITableViewController,UISearchBarDelegate {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
         indexOfFlag = indexPath.row
+        
+        //performs a segue to the thirdViewController
         performSegue(withIdentifier: "segue", sender: self)
     }
     
     
-    
+    //search bar function to filter out the countries
     func searchBar(_ searchBar: UISearchBar,textDidChange searchText: String)
     {
         
-     
         flagsFiltered = flags
         counToFlagDictFiltered = counToFlagDict
         
+        // updating the flagsFiltered and counToFlagDictFiltered based on the search string
         if(searchText != "")
         {
-            flagsFiltered = flags.filter({fla -> Bool in
-            return fla.contains(searchText)
-            })
-        
-            //print("filteredtFlags = ",flagsFiltered)
-            
+            flagsFiltered = flags.filter({fla -> Bool in return fla.contains(searchText)})
             
             for (ite,_) in counToFlagDict
             {
@@ -108,8 +99,5 @@ class secondViewController: UITableViewController,UISearchBarDelegate {
             
         tableViewing.reloadData()
     }
-    
-    
-    
     
 }
