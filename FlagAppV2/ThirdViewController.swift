@@ -15,7 +15,7 @@ class ThirdViewController: UIViewController {
     
     //country flag image
     @IBOutlet weak var selectedImage: UIImageView!
-    
+    /*
     //country population
     @IBOutlet weak var popu: UILabel!
     
@@ -37,7 +37,7 @@ class ThirdViewController: UIViewController {
     //country language
     @IBOutlet weak var lang: UILabel!
     
-    
+    */
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +45,7 @@ class ThirdViewController: UIViewController {
         selectedImage.image = UIImage(named: counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![0] + ".png")
 
         selectedItem.text = flagsFiltered[indexOfFlag]
-
+/*
         
         //format the numbers so that there are commas in them
         let numberFormatter = NumberFormatter()
@@ -82,7 +82,7 @@ class ThirdViewController: UIViewController {
         lang.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![7]
         lang.lineBreakMode = .byWordWrapping
         lang.numberOfLines = 0
-       
+     */
 
     }
 
