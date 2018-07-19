@@ -118,6 +118,7 @@
                                                 <rect key="frame" x="9" y="257" width="103" height="40"/>
                                                 <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="width" constant="103" id="sYq-7O-Fxd"/>
                                                     <constraint firstAttribute="height" constant="40" id="xxB-Hk-l12"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
