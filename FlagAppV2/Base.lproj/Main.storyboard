@@ -340,21 +340,6 @@
             </objects>
             <point key="canvasLocation" x="2808.8000000000002" y="-0.44977511244377816"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="LVs-vu-uwJ">
-            <objects>
-                <viewController id="21n-ng-6LW" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Fdp-3N-h1K">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="LIx-S6-p4H"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zbe-Bn-Rs7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3750" y="33"/>
-        </scene>
         <!--Flags-->
         <scene sceneID="Vth-u0-AZd">
             <objects>
