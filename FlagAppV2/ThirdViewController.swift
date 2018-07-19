@@ -9,13 +9,16 @@
 import UIKit
 
 class ThirdViewController: UIViewController {
-
-    //country name
-    @IBOutlet weak var selectedItem: UILabel!
+   
     
     //country flag image
     @IBOutlet weak var selectedImage: UIImageView!
     
+  
+    //country name
+    @IBOutlet weak var selectedItem: UILabel!
+    
+
     //country population
     @IBOutlet weak var popu: UILabel!
     
@@ -31,13 +34,15 @@ class ThirdViewController: UIViewController {
     //country surface area
     @IBOutlet weak var area: UILabel!
     
+
+    
     //country region
     @IBOutlet weak var regi: UILabel!
     
     //country language
     @IBOutlet weak var lang: UILabel!
     
- 
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,8 +87,11 @@ class ThirdViewController: UIViewController {
         lang.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![7]
         lang.lineBreakMode = .byWordWrapping
         lang.numberOfLines = 0
- 
 
+        
+        
+        
+      
     }
 
     
