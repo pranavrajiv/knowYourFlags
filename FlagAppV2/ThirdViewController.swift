@@ -43,14 +43,25 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var lang: UILabel!
     
 
-    
+    //function that sets the value to the filed as N/A if its empty
+    func defaultValueSetter(_ texVal: String) -> String
+    {
+        if(texVal.count != 0)
+        {
+            return texVal
+        }
+        else
+        {
+            return "N/A"
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         selectedImage.image = UIImage(named: counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![0] + ".png")
 
         selectedItem.text = flagsFiltered[indexOfFlag]
-
+        
         
         //format the numbers so that there are commas in them
         let numberFormatter = NumberFormatter()
@@ -63,28 +74,37 @@ class ThirdViewController: UIViewController {
             let myNumberPopu = NSNumber(value:myIntegerPopu)
             let formattedNumberPopu = numberFormatter.string(from: myNumberPopu)
             popu.text = formattedNumberPopu
+            
+            popu.text = defaultValueSetter(popu.text!)
         }
         
         capi.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![6]
+        capi.text = defaultValueSetter(capi.text!)
         
         curr.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![4]
+        curr.text = defaultValueSetter(curr.text!)
+        
         
         inco.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![3]
+        inco.text = defaultValueSetter(inco.text!)
         
         if let myIntegerArea = Int(counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![5])
         {
             let myNumberArea = NSNumber(value:myIntegerArea)
             let formattedNumberArea = numberFormatter.string(from: myNumberArea)
             area.text = formattedNumberArea
+            area.text = defaultValueSetter(area.text!)
         }
         
         //makes the label value displayed not limited to one line
         regi.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![2]
+        regi.text = defaultValueSetter(regi.text!)
         regi.lineBreakMode = .byWordWrapping
         regi.numberOfLines = 0
         
         //makes the label value displayed not limited to one line
         lang.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![7]
+        lang.text = defaultValueSetter(lang.text!)
         lang.lineBreakMode = .byWordWrapping
         lang.numberOfLines = 0
 
