@@ -64,6 +64,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
             if(count != 0)
             {
                
+                //print("\nitemm[0]",itemm[0])
                 var index = itemm[0].index(of: ",")!
                 var substr = itemm[0].prefix(upTo: index)
                 flags.append(String(substr))

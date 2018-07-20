@@ -46,7 +46,7 @@ class ThirdViewController: UIViewController {
     //function that sets the value to the filed as N/A if its empty
     func defaultValueSetter(_ texVal: String) -> String
     {
-        if(texVal.count != 0)
+        if(texVal != "")
         {
             return texVal
         }
