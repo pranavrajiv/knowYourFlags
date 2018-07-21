@@ -53,7 +53,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QR-0G-Xjt">
-                                <rect key="frame" x="172" y="354" width="30" height="30"/>
+                                <rect key="frame" x="56" y="354" width="262" height="30"/>
                                 <connections>
                                     <action selector="knowMoreButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="YtD-tA-2jx"/>
                                     <segue destination="lOs-t5-vRh" kind="show" identifier="" id="UMW-18-mCe"/>
@@ -67,10 +67,12 @@
                             <constraint firstItem="n61-5G-3om" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="10" id="J8p-Uq-TOn"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="n61-5G-3om" secondAttribute="trailing" constant="57" id="RiV-mB-8M2"/>
                             <constraint firstItem="AXz-w7-Yeb" firstAttribute="top" secondItem="n61-5G-3om" secondAttribute="bottom" constant="10" id="Vuw-7o-20t"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="1QR-0G-Xjt" secondAttribute="trailing" constant="57" id="boL-zH-z97"/>
                             <constraint firstItem="1QR-0G-Xjt" firstAttribute="top" secondItem="AXz-w7-Yeb" secondAttribute="bottom" constant="20" id="ddB-dd-NPq"/>
                             <constraint firstItem="vbf-LP-NqV" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="neP-Bi-Uya"/>
                             <constraint firstItem="1QR-0G-Xjt" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="pTV-4e-zNi"/>
                             <constraint firstItem="vbf-LP-NqV" firstAttribute="top" secondItem="1QR-0G-Xjt" secondAttribute="bottom" constant="144" id="rlt-Qy-DCj"/>
+                            <constraint firstItem="1QR-0G-Xjt" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="56" id="svl-eP-wsj"/>
                             <constraint firstItem="n61-5G-3om" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="56" id="tal-Xl-nQn"/>
                             <constraint firstItem="AXz-w7-Yeb" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="yeq-4E-4Rt"/>
                         </constraints>

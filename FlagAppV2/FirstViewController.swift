@@ -201,7 +201,9 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         knowMorebuttonSetProp.sizeToFit()
         knowMorebuttonSetProp.layer.cornerRadius =  10
         knowMorebuttonSetProp.clipsToBounds = true
-        
+        knowMorebuttonSetProp.titleLabel!.lineBreakMode = .byWordWrapping
+        knowMorebuttonSetProp.titleLabel!.numberOfLines = 0
+        knowMorebuttonSetProp.titleLabel!.textAlignment = .center
         
         
         flagsFiltered = flags
