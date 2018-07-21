@@ -75,12 +75,15 @@ class ThirdViewController: UIViewController {
             let myNumberPopu = NSNumber(value:myIntegerPopu)
             let formattedNumberPopu = numberFormatter.string(from: myNumberPopu)
             popu.text = formattedNumberPopu
-            
             popu.text = defaultValueSetter(popu.text!)
+            popu.lineBreakMode = .byWordWrapping
+            popu.numberOfLines = 0
         }
         
         capi.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![6]
         capi.text = defaultValueSetter(capi.text!)
+        capi.lineBreakMode = .byWordWrapping
+        capi.numberOfLines = 0
         
         curr.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![4]
         curr.text = defaultValueSetter(curr.text!)
@@ -91,6 +94,9 @@ class ThirdViewController: UIViewController {
         
         inco.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![3]
         inco.text = defaultValueSetter(inco.text!)
+        inco.lineBreakMode = .byWordWrapping
+        inco.numberOfLines = 0
+        
         
         if let myIntegerArea = Int(counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![5])
         {
@@ -98,6 +104,8 @@ class ThirdViewController: UIViewController {
             let formattedNumberArea = numberFormatter.string(from: myNumberArea)
             area.text = formattedNumberArea
             area.text = defaultValueSetter(area.text!)
+            area.lineBreakMode = .byWordWrapping
+            area.numberOfLines = 0
         }
         
         //makes the label value displayed not limited to one line

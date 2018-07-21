@@ -108,35 +108,6 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
  
  
         }
-  /*
- var count = 0
-  
-         for var x in 1..<csvRows.count {
-            //var line = ""
-            var tempList = [String]()
-            for var y in 0..<csvRows[x].count {
-                
-                print("\n",count,"csvRows[x][y]",csvRows[x][y])
-                
-                if(y==0)
-                {
-                    flags.append(csvRows[x][y])
-                }
-                else
-                {
-                    tempList.append(csvRows[x][y])
-                }
-                //line += String(csvRows[x][y])
-                //line += " "
-            }
-            counToFlagDict[csvRows[x][0]] = tempList
-            //print(line)
-            count  = count + 1
-        }
-        
-        */
-        
-        
         
     }
     
