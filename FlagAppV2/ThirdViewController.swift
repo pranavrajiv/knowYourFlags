@@ -61,7 +61,8 @@ class ThirdViewController: UIViewController {
         selectedImage.image = UIImage(named: counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![0] + ".png")
 
         selectedItem.text = flagsFiltered[indexOfFlag]
-        
+        selectedItem.lineBreakMode = .byWordWrapping
+        selectedItem.numberOfLines = 0
         
         //format the numbers so that there are commas in them
         let numberFormatter = NumberFormatter()
@@ -83,6 +84,9 @@ class ThirdViewController: UIViewController {
         
         curr.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![4]
         curr.text = defaultValueSetter(curr.text!)
+        curr.lineBreakMode = .byWordWrapping
+        curr.numberOfLines = 0
+        
         
         
         inco.text = counToFlagDictFiltered[flagsFiltered[indexOfFlag]]![3]

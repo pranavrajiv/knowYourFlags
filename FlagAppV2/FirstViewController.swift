@@ -53,12 +53,14 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         data = cleanRows(file: data!)
         let csvRows = csv(data: data!)
         
+        
         //variable that makes sure that the header in the csv file is not included
         var count = 0
         
         for itemm in csvRows
         {
             
+      
             var tempList = [String]()
             //removes the headers
             if(count != 0)
@@ -92,7 +94,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
                 
                 //for parsing the languages (the last column in each row)
                 temp2.remove(at: temp2.startIndex)
-                if temp2.count > 0
+                if (temp2.count > 0 && temp2[temp2.startIndex] == "\"")
                 {
                     temp2.remove(at: temp2.startIndex)
                     temp2.removeLast()
@@ -103,8 +105,39 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
                 
             }
             count = 1
-            
+ 
+ 
         }
+  /*
+ var count = 0
+  
+         for var x in 1..<csvRows.count {
+            //var line = ""
+            var tempList = [String]()
+            for var y in 0..<csvRows[x].count {
+                
+                print("\n",count,"csvRows[x][y]",csvRows[x][y])
+                
+                if(y==0)
+                {
+                    flags.append(csvRows[x][y])
+                }
+                else
+                {
+                    tempList.append(csvRows[x][y])
+                }
+                //line += String(csvRows[x][y])
+                //line += " "
+            }
+            counToFlagDict[csvRows[x][0]] = tempList
+            //print(line)
+            count  = count + 1
+        }
+        
+        */
+        
+        
+        
     }
     
     

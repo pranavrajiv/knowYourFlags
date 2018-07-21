@@ -12,7 +12,7 @@ Argentina,ar,41655616,Latin America & Caribbean,Upper middle income,Peso (ARS),2
 Armenia,am,2967984,Europe & Central Asia,Lower middle income,Dram (AMD),29740,Yerevan,"Armenian 98%, Yezidi, Russian"
 Aruba,aw,101936,Latin America & Caribbean,High income,Netherlands Antilles Guilder (ANG),180,Oranjestad,"Dutch, Papiamento "
 Australia,au,22340024,East Asia & Pacific,High income: OECD,Australian Dollars (AUD),7741220,Canberra,"English 79%, native and other languages"
-Austria,at,8391643,Europe & Central Asia,High income: OECD,Euros (EUR),83879,Vienna,"German (official nationwide); Slovene, Croatian, Hungarian (each official in one region)"
+Austria,at,8391643,Europe & Central Asia,High income: OECD,Euros (EUR),83879,Vienna,"German (official nationwide) Slovene, Croatian, Hungarian (each official in one region)"
 Azerbaijan,az,9173082,Europe & Central Asia,Upper middle income,Manat (AZN),86600,Baku,"Azerbaijani Turkic 89%, Russian 3%, Armenian 2%, other 6% (1995 est.)"
 Bahamas,bs,366711,Latin America & Caribbean,High income,Bahamian Dollar (BSD),13880,Nassau,"English (official), Creole (among Haitian immigrants)"
 Bahrain,bh,1306014,Middle East & North Africa,High income,Bahraini Dinar (BHD),771,Manama,"Arabic, English, Farsi, Urdu"
@@ -33,15 +33,15 @@ Brazil,br,200517584,Latin America & Caribbean,Upper middle income,Brazil (BRL),8
 British Indian Ocean Territory,io,0,Tanzania & Indonesia,N/A,United States Dollar (USD),640000,Camp Justice,English
 Brunei Darussalam,bn,399443,East Asia & Pacific,High income,Bruneian Dollar (BND),5770,Bandar Seri Begawan,Malay
 Bulgaria,bg,7348328,Europe & Central Asia,Upper middle income,Lev (BGN),111000,Sofia,"Bulgarian 85%, Turkish 10%, Roma 4%"
-Burkina Faso,bf,16106851,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),274220,Ouagadougou,French (official); native African (Sudanic) languages 90%
+Burkina Faso,bf,16106851,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),274220,Ouagadougou,French (official) native African (Sudanic) languages 90%
 Burundi,bi,9790151,Sub-Saharan Africa,Low income,Burundi Franc (BIF),27830,Bujumbura,"Kirundi and French (official), Swahili"
 Cabo Verde,cv,553594,West Africa,Lower middle income,Cape Verdean escudo (CVE),4030,Praia,Portuguese
 Cambodia,kh,14593099,East Asia & Pacific,Low income,Riel (KHR),181040,Phnom Penh,"Khmer 95% (official), French, English"
-Cameroon,cm,21119065,Sub-Saharan Africa,Lower middle income,CFA Franc BEAC (XAF),475440,Yaounde,"French, English (both official); 24 major African language groups"
-Canada,ca,34342780,North America,High income: OECD,Canadian Dollar (CAD),9984670,Ottawa,"English 59.3%, French 23.2% (both official); other 17.5%"
+Cameroon,cm,21119065,Sub-Saharan Africa,Lower middle income,CFA Franc BEAC (XAF),475440,Yaounde,"French, English (both official) 24 major African language groups"
+Canada,ca,34342780,North America,High income: OECD,Canadian Dollar (CAD),9984670,Ottawa,"English 59.3%, French 23.2% (both official) other 17.5%"
 Cayman Islands,ky,56580,Latin America & Caribbean,High income,Caymanian Dollar (KYD),264,George Town,English
 Central African Republic,cf,4530903,Sub-Saharan Africa,Low income,CFA Franc BEAC (XAF),622980,Bangui,"French (official), Sangho (lingua franca, national), tribal languages"
-Chad,td,12298512,Sub-Saharan Africa,Low income,CFA Franc BEAC (XAF),1284000,N'Djamena,"French, Arabic (both official); Sara; more than 120 languages and dialects"
+Chad,td,12298512,Sub-Saharan Africa,Low income,CFA Franc BEAC (XAF),1284000,N'Djamena,"French, Arabic (both official) Sara more than 120 languages and dialects"
 Chile,cl,17201305,Latin America & Caribbean,Upper middle income,Chilean Peso (CLP),756096,Santiago,Spanish
 China,cn,1344130000,East Asia & Pacific,Upper middle income,Yuan Renminbi (CNY),9562911,Beijing,"Standard Chinese (Mandarin/Putonghua), Yue (Cantonese), Wu (Shanghaiese), Minbei (Fuzhou), Minnan (Hokkien-Taiwanese), Xiang, Gan, Hakka dialects, minority languages"
 Christmas Island,cx,1402,Indian Ocean,,Australian Dollars (AUD),134.99018,Flying Fish Cove,English
@@ -52,26 +52,26 @@ Congo,cg,68087376,Sub-Saharan Africa,Low income,CFA Franc BEAC (XAF),2344860,Kin
 Congo (Democratic Republic of the),cd,78740000,Sub-Saharan Africa,Low income,Congolese Franc (CDF) & Zairean zaire,6074584.014,Brazzaville,"Kituba, Lingala, Swahili and Tshiluba"
 Cook Islands,ck,17459,South Pacific Ocean,,New Zealand Dollars (NZD),236.69901,Avarua,"Rarotongan, English"
 Costa Rica,cr,4600487,Latin America & Caribbean,Upper middle income,Costa Rican Colon (CRC),51100,San Jose,"Spanish (official), English"
-Croatia,hr,4280622,Europe & Central Asia,High income,Croatian Dinar (HRK),56590,Zagreb,"German (official nationwide); Slovene, Croatian, Hungarian (each official in one region)"
+Croatia,hr,4280622,Europe & Central Asia,High income,Croatian Dinar (HRK),56590,Zagreb,"German (official nationwide) Slovene, Croatian, Hungarian (each official in one region)"
 Cuba,cu,11323570,Latin America & Caribbean,Upper middle income,Cuban Peso (CUP),109880,Havana,Spanish
 Curacao,cw,150831,Latin America & Caribbean,High income,Netherlands Antillean guilder (NAFL),444,Willemstad,"English, Papiamento, Dutch"
-Cyprus,cy,1116644,Europe & Central Asia,High income,Cypriot Pound (CYP),9250,Nicosia,"Greek, Turkish (both official); English"
+Cyprus,cy,1116644,Europe & Central Asia,High income,Cypriot Pound (CYP),9250,Nicosia,"Greek, Turkish (both official) English"
 Czechia,cz,10560000,Central Europe,High income,Czech koruna (CZK),78865.138,Prague,Czech
-Denmark,dk,5570572,Europe & Central Asia,High income: OECD,Danish Krone (DKK),42922,Copenhagen,"Danish, Faroese, Greenlandic (Inuit dialect), German; English is the predominant second language"
+Denmark,dk,5570572,Europe & Central Asia,High income: OECD,Danish Krone (DKK),42922,Copenhagen,"Danish, Faroese, Greenlandic (Inuit dialect), German English is the predominant second language"
 Djibouti,dj,841802,Middle East & North Africa,Lower middle income,Djiboutian Franc (DJF),23200,Djibouti,"French and Arabic (both official), Somali, Afar"
 Dominica,dm,71402,Latin America & Caribbean,Upper middle income,East Caribbean Dollar (XCD),750,Roseau,English (official) and French patois
 Dominican Republic,do,10027140,Latin America & Caribbean,Upper middle income,Dominican Peso (DOP),48670,Santo Domingo,Spanish
 Ecuador,ec,15177280,Latin America & Caribbean,Upper middle income,Sucre (ECS),256370,Quito,"Spanish (official), Quechua, other Amerindian languages"
 Egypt,eg,83787634,Middle East & North Africa,Lower middle income,Egyptian Pound (EGP),1001450,Cairo,"Arabic (official), English and French widely understood by educated classes"
 El Salvador,sv,6055208,Latin America & Caribbean,Lower middle income,Salvadoran Colon (SVC),21040,San Salvador,"Spanish, Nahua (among some Amerindians)"
-Equatorial Guinea,gq,750918,Sub-Saharan Africa,High income,CFA Franc BEAC (XAF),28050,Malabo,"Spanish, French (both official); pidgin English, Fang, Bubi, Ibo"
+Equatorial Guinea,gq,750918,Sub-Saharan Africa,High income,CFA Franc BEAC (XAF),28050,Malabo,"Spanish, French (both official) pidgin English, Fang, Bubi, Ibo"
 Eritrea,er,4789568,Sub-Saharan Africa,Low income,Ethiopian Birr (ETB),117600,Asmara,"Afar, Arabic, Tigre and Kunama, Tigrinya, other Cushitic languages"
 Estonia,ee,1327439,Europe & Central Asia,High income: OECD,Estonian Kroon (EEK),45230,Tallinn,"Estonian 67% (official), Russian 30%, other (2000)"
 Ethiopia,et,89858696,Sub-Saharan Africa,Low income,Ethiopian Birr (ETB),1104300,Addis Ababa,"Amharic, Tigrigna, Orominga, Guaragigna, Somali, Arabic, English, over 70 others"
 Falkland Islands (Malvinas),fk,3398,Patagonian Shelf,,Falkland Pound (FKP),12199,Stanley,English
 Faroe Islands,fo,49117,Norwegian Sea & North Atlantic Ocean,High income,Danish Krone (DKK),1396,Torshavn,"Faroese, danish"
 Fiji,fj,867327,East Asia & Pacific,Lower middle income,Fijian Dollar (FJD),18270,Suva,"English (official), Fijian, Hindustani"
-Finland,fi,5388272,Europe & Central Asia,High income: OECD,Euros (EUR),338420,Helsinki,"Finnish 92%, Swedish 6% (both official); small Sami- (Lapp) and Russian-speaking minorities"
+Finland,fi,5388272,Europe & Central Asia,High income: OECD,Euros (EUR),338420,Helsinki,"Finnish 92%, Swedish 6% (both official) small Sami- (Lapp) and Russian-speaking minorities"
 France,fr,65342776,Europe & Central Asia,High income: OECD,Euros (EUR),549087,Paris,"French 100%, rapidly declining regional dialects (Proven√ßal, Breton, Alsatian, Corsican, Catalan, Basque, Flemish)"
 French Guiana,gf,250377,Northeast coast of South America,,Euros (EUR),91000,Cayenne,French
 French Polynesia,pf,270862,East Asia & Pacific,High income,CFP Franc (XPF),4000,Papeete,French
@@ -83,36 +83,36 @@ Germany,de,81797673,Europe & Central Asia,High income: OECD,Euros (EUR),357380,B
 Ghana,gh,24928503,Sub-Saharan Africa,Lower middle income,Ghana cedi (GHS),238540,Accra,"English (official), African languages (including Akan, Moshi-Dagomba, Ewe, and Ga)"
 Gibraltar,gi,31067,Europe & Central Asia,High income,Gibraltar Pound (GIP),10,Gibraltar,English
 Greece,gr,11104899,Europe & Central Asia,High income: OECD,Euros (EUR),131960,Athens,"Greek 99% (official), English, French"
-Greenland,gl,56890,Europe & Central Asia,High income,Danish Krone (DKK),410450,Nuuk,"Danish, Faroese, Greenlandic (Inuit dialect), German; English is the predominant second language"
+Greenland,gl,56890,Europe & Central Asia,High income,Danish Krone (DKK),410450,Nuuk,"Danish, Faroese, Greenlandic (Inuit dialect), German English is the predominant second language"
 Grenada,gd,105070,Latin America & Caribbean,Upper middle income,East Caribbean Dollar (XCD),340,St. George's,"English (official), French patois"
 Guadeloupe,gp,405739,French overseas,,Euros (EUR),65,Basse-Terre,French
 Guam,gu,160858,East Asia & Pacific,High income,United States Dollar (USD),540,Hagatna,"Chamorro, English"
 Guatemala,gt,15049280,Latin America & Caribbean,Lower middle income,Quetzal (GTQ),108890,Guatemala City,"Spanish 60%, Amerindian languages 40% (23 officially recognized Amerindian languages, including Quiche, Cakchiquel, Kekchi, Mam, Garifuna, and Xinca)"
 Guernsey,gg,63026,English Channel,,Guernsey pound (GGP),78,St. Peter Port,"French, English"
-Guinea,gn,11316351,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),245860,Malabo,"Spanish, French (both official); pidgin English, Fang, Bubi, Ibo"
+Guinea,gn,11316351,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),245860,Malabo,"Spanish, French (both official) pidgin English, Fang, Bubi, Ibo"
 Guinea-Bissau,gw,1673509,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),36130,Bissau,"Portuguese (official), Criolo, African languages"
 Guyana,gy,755883,Latin America & Caribbean,Lower middle income,Guyanaese Dollar (GYD),214970,Georgetown,"English (official), Amerindian dialects, Creole, Hindi, Urdu"
 Haiti,ht,10144890,Latin America & Caribbean,Low income,Gourde (HTG),27750,Port-au-Prince,"English (official), Creole (among Haitian immigrants)"
 Heard Island and McDonald Islands,hm,0,Madagascar & Antarctica,N/A,‎Dollar (AUD),369,N/A,N/A
 Holy See,va,1000,Kurdistan,,Euros (EUR),283,Vatican City,"Italian, Latin, French, various other languages"
-Honduras,hn,7621414,Latin America & Caribbean,Lower middle income,Lempira (HNL),112490,Tegucigalpa,"Spanish (official), Amerindian dialects; English widely spoken in business"
+Honduras,hn,7621414,Latin America & Caribbean,Lower middle income,Lempira (HNL),112490,Tegucigalpa,"Spanish (official), Amerindian dialects English widely spoken in business"
 Hong Kong,hk,7071600,East Asia & Pacific,High income,HKD (HKD),1105,Central,"Chinese, English"
 Hungary,hu,9971727,Europe & Central Asia,High income: OECD,Forint (HUF),93030,Budapest,"Magyar (Hungarian) 94%, other 6%"
 Iceland,is,319014,Europe & Central Asia,High income: OECD,Icelandic Krona (ISK),103000,Reykjavik,"Icelandic, English, Nordic languages, German widely spoken"
-India,in,1247446011,South Asia,Lower middle income,Indian Rupee (INR),3287259,New Delhi,"Hindi 30%, English, Bengali, Gujarati, Kashmiri, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu, Urdu, Kannada, Assamese, Sanskrit, Sindhi (all official); Hindi/Urdu; 1,600+ dialects"
-Indonesia,id,244808254,East Asia & Pacific,Lower middle income,Indonesian Rupiah (IDR),1910931,Jakarta,"Tetum, Portuguese (official); Bahasa Indonesia, English; other indigenous languages, including Tetum, Galole, Mambae, and Kemak"
+India,in,1247446011,South Asia,Lower middle income,Indian Rupee (INR),3287259,New Delhi,"Hindi 30%, English, Bengali, Gujarati, Kashmiri, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu, Urdu, Kannada, Assamese, Sanskrit, Sindhi (all official) Hindi/Urdu 1,600+ dialects"
+Indonesia,id,244808254,East Asia & Pacific,Lower middle income,Indonesian Rupiah (IDR),1910931,Jakarta,"Tetum, Portuguese (official) Bahasa Indonesia, English other indigenous languages, including Tetum, Galole, Mambae, and Kemak"
 Iran (Islamic Republic of),ir,80280000,West Asia,Upper middle income,Iranian Rial (IRR),1648000,Tehran,Persian
 Iraq,iq,31867758,Middle East & North Africa,Lower middle income,Iraqi Dinar (IQD),435050,Baghdad,"Arabic (official), Kurdish (official in Kurdish regions), Assyrian, Armenian"
 Ireland,ie,4576794,Europe & Central Asia,High income: OECD,Euros (EUR),70280,Dublin,"English, Irish (Gaelic) (both official)"
 Isle of Man,im,85069,Europe & Central Asia,High income,Manx pound (GBP),570,Douglas,"Manx, English"
 Israel,il,7765800,Middle East & North Africa,High income: OECD,Shekel (ILS),22070,Jerusalem,"Hebrew (official), Arabic, English"
-Italy,it,59379449,Europe & Central Asia,High income: OECD,Euros (EUR),301340,Rome,"Italian (official); German-, French-, and Slovene-speaking minorities"
+Italy,it,59379449,Europe & Central Asia,High income: OECD,Euros (EUR),301340,Rome,"Italian (official) German-, French-, and Slovene-speaking minorities"
 Ivory Coast,ci,23700000, ‎Republic of Côte d'Ivoire,,CFA Franc BCEAO (XOF),322464,Yamoussoukro,French
 Jamaica,jm,2699838,Latin America & Caribbean,Upper middle income,Jamaican Dollar (JMD),10990,Kingston,"English, Jamaican Creole"
 Japan,jp,127817277,East Asia & Pacific,High income: OECD,Japanese Yen (JPY),377962,Tokyo,Japanese
 Jersey,je,100080,Normandy,,Sterling (GBP),120,St. Helier,"French, English"
 Jordan,jo,6760371,Middle East & North Africa,Upper middle income,Jordanian Dinar (JOD),89320,Amman,"Arabic (official), English"
-Kazakhstan,kz,16556600,Europe & Central Asia,Upper middle income,Tenge (KZT),2724902,Astana,"Kazak (Qazaq, state language) 64%; Russian (official, used in everyday business) 95% (2001 est.)"
+Kazakhstan,kz,16556600,Europe & Central Asia,Upper middle income,Tenge (KZT),2724902,Astana,"Kazak (Qazaq, state language) 64% Russian (official, used in everyday business) 95% (2001 est.)"
 Kenya,ke,41419954,Sub-Saharan Africa,Low income,Kenyan Shilling (KES),580370,Nairobi,"English (official), Swahili (national), and numerous indigenous languages"
 Kiribati,ki,104662,East Asia & Pacific,Lower middle income,Australian Dollars (AUD),810,Tarawa,"English (official), I-Kiribati (Gilbertese)"
 Korea (Democratic People's Republic of),kp,25370000,East Asia,Low income,North Korean won (KPW),120540,Pyongyang,Korean
@@ -122,7 +122,7 @@ Kyrgyzstan,kg,6083000,Central Asia,Lower middle income,Som (KGS),198500,Bishkek,
 Lao People's Democratic Republic,la,6758000,Southeast Asia,Lower middle income,Lao kip (LAK),236800,Vientiane,Lao
 Latvia,lv,2059709,Europe & Central Asia,Upper middle income,Lat (LVL),64490,Riga,"Latvian 58% (official), Russian 38%, Lithuanian, other (2000)"
 Lebanon,lb,4591698,Middle East & North Africa,Upper middle income,Lebanese Pound (LBP),10450,Beirut,"Arabic (official), French, English, Armenian"
-Lesotho,ls,2032950,Sub-Saharan Africa,Lower middle income,Loti (LSL),30360,Maseru,"English, Sesotho (both official); Zulu, Xhosa"
+Lesotho,ls,2032950,Sub-Saharan Africa,Lower middle income,Loti (LSL),30360,Maseru,"English, Sesotho (both official) Zulu, Xhosa"
 Liberia,lr,4079574,Sub-Saharan Africa,Low income,Liberian Dollar (LRD),111370,Monrovia,"English 20% (official), some 20 ethnic-group languages"
 Libya,ly,6288652,Middle East & North Africa,Upper middle income,Libyan Dinar (LYD),1759540,Tripoli,"Arabic, Italian, and English widely understood in major cities"
 Liechtenstein,li,36537,Europe & Central Asia,High income,Swiss Franc (CHF),160,Vaduz,"German (official), Alemannic dialect"
@@ -132,11 +132,11 @@ Macao,mo,546682,East Asia & Pacific,High income,Macanese pataca (MOP),31,N/A,"Ch
 Macedonia (the former Yugoslav Republic of),mk,2081000,Southeastern Europe,Upper middle income,Macedonian denar (MKD),25333,Skopje,Macedonian
 Madagascar,mg,21678867,Sub-Saharan Africa,Low income,Malagasy Franc (MGA),587295,Antananarivo,Malagasy and French (both official)
 Malawi,mw,15226813,Sub-Saharan Africa,Low income,Malawian Kwacha (MWK),118480,Lilongwe,"Chichewa 57.2% (official), Chinyanja 12.8%, Chiyao 10.1%, Chitumbuka 9.5%, Chisena 2.7%, Chilomwe 2.4%, Chitonga 1.7%, other 3.6% (1998)"
-Malaysia,my,28572970,East Asia & Pacific,Upper middle income,Ringgit (MYR),330800,Kuala Lumpur,"Bahasa Melayu (Malay, official), English, Chinese dialects (Cantonese, Mandarin, Hokkien, Hakka, Hainan, Foochow), Tamil, Telugu, Malayalam, Panjabi, Thai; several indigenous languages (including Iban, Kadazan) in East Malaysia"
-Maldives,mv,377000,South Asia,Upper middle income,Rufiyaa (MVR),300,Male,Maldivian Dhivehi (official); English spoken by most government officials
+Malaysia,my,28572970,East Asia & Pacific,Upper middle income,Ringgit (MYR),330800,Kuala Lumpur,"Bahasa Melayu (Malay, official), English, Chinese dialects (Cantonese, Mandarin, Hokkien, Hakka, Hainan, Foochow), Tamil, Telugu, Malayalam, Panjabi, Thai several indigenous languages (including Iban, Kadazan) in East Malaysia"
+Maldives,mv,377000,South Asia,Upper middle income,Rufiyaa (MVR),300,Male,Maldivian Dhivehi (official) English spoken by most government officials
 Mali,ml,15639115,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),1240190,Bamako,"French (official), native tongues (Malink√©, Susu, Fulani)"
 Malta,mt,416268,Middle East & North Africa,High income,Maltese Lira (MTL),320,Valletta,Maltese and English (both official)
-Marshall Islands,mh,52541,East Asia & Pacific,Lower middle income,United States Dollar (USD),180,Majuro,"Marshallese 98% (two major dialects from the Malayo-Polynesian family), English widely spoken as a second language (both official); Japanese"
+Marshall Islands,mh,52541,East Asia & Pacific,Lower middle income,United States Dollar (USD),180,Majuro,"Marshallese 98% (two major dialects from the Malayo-Polynesian family), English widely spoken as a second language (both official) Japanese"
 Martinique,mq,386486,Caribbean,,Euros (EUR),1130,Fort-de-France,French
 Mauritania,mr,3683221,Sub-Saharan Africa,Lower middle income,Ouguiya (MRO),1030700,Nouakchott,"Hassaniya Arabic (official), Pulaar, Soninke, French, Wolof"
 Mauritius,mu,1252404,Sub-Saharan Africa,Upper middle income,Mauritian Rupee (MUR),2040,Port Louis,"English less than 1% (official), Creole 81%, Bojpoori 12%, French 3% (2000)"
@@ -145,44 +145,44 @@ Mexico,mx,120365271,Latin America & Caribbean,Upper middle income,Peso (MXN),196
 Micronesia (Federated States of),fm,104937,Oceania,Lower middle income,United States Dollar (USD),702,Palikir,English
 Moldova (Republic of),md,3552000,North-eastern Romania,Lower middle income,Moldovan leu (MDL),33843,Chișinău,"Moldovan, Romanian"
 Monaco,mc,37189,Europe & Central Asia,High income,Euros (EUR),2,Monaco,"French (official), English, Italian, Mon√©gasque"
-Mongolia,mn,2759074,East Asia & Pacific,Lower middle income,Tugrik (MNT),1564120,Ulaanbaatar,"Mongolian, 90%; also Turkic and Russian (1999)"
+Mongolia,mn,2759074,East Asia & Pacific,Lower middle income,Tugrik (MNT),1564120,Ulaanbaatar,"Mongolian, 90% also Turkic and Russian (1999)"
 Montenegro,me,620079,Europe & Central Asia,Upper middle income,Euro (EUR),13810,Podgorica,Serbian/Montenegrin (Ijekavian dialect‚Äîofficial)
 Montserrat,ms,4900,Caribbean,,East Caribbean Dollar (XCD),102,Plymouth,English
 Morocco,ma,32531964,Middle East & North Africa,Lower middle income,Dirham (MAD),446550,Rabat,"Arabic (official), Berber dialects, French often used for business, government, and diplomacy"
-Mozambique,mz,25016921,Sub-Saharan Africa,Low income,Metical (MZN),799380,Maputo,"Portuguese 9% (official; second language of 27%), Emakhuwa 26%, Xichangana 11%, Elomwe 8%, Cisena 7%, Echuwabo 6%, other Mozambican languages 32% (1997)"
+Mozambique,mz,25016921,Sub-Saharan Africa,Low income,Metical (MZN),799380,Maputo,"Portuguese 9% (official second language of 27%), Emakhuwa 26%, Xichangana 11%, Elomwe 8%, Cisena 7%, Echuwabo 6%, other Mozambican languages 32% (1997)"
 Myanmar,mm,52125411,East Asia & Pacific,Low income,Kyat (MMK),676590,Naypyidaw,"Burmese, minority languages"
-Namibia,na,2240161,Sub-Saharan Africa,Upper middle income,Dollar (NAD),824290,Windhoek,"English 7% (official), Afrikaans is common language of most of the population and of about 60% of the white population, German 32%; indigenous languages: Oshivambo, Herero, Nama"
+Namibia,na,2240161,Sub-Saharan Africa,Upper middle income,Dollar (NAD),824290,Windhoek,"English 7% (official), Afrikaans is common language of most of the population and of about 60% of the white population, German 32% indigenous languages: Oshivambo, Herero, Nama"
 Nauru,nr,13049,Southwestern Pacific Ocean,Upper middle income,Australian Dollars (AUD),20,Yaren,"Nauruan (official), English"
 Nepal,np,27179237,South Asia,Low income,Nepalese Rupee (NPR),147180,Kathmandu,"Dzongkha (official), Tibetan dialects (among Bhotes), Nepalese dialects (among Nepalese)"
 Netherlands,nl,16693074,Europe & Central Asia,High income: OECD,Euros (EUR),41540,Amsterdam,"Dutch, Frisian (both official)"
 New Caledonia,nc,254000,East Asia & Pacific,High income,CFP Franc (XPF),18580,Noumea,French
 New Zealand,nz,4384000,East Asia & Pacific,High income: OECD,New Zealand Dollars (NZD),267710,Wellington,"English, Maori (both official)"
-Nicaragua,ni,5807787,Latin America & Caribbean,Lower middle income,Cordoba Oro (NIO),130370,Managua,Spanish 98% (official); English and indigenous languages on Atlantic coast (1995)
+Nicaragua,ni,5807787,Latin America & Caribbean,Lower middle income,Cordoba Oro (NIO),130370,Managua,Spanish 98% (official) English and indigenous languages on Atlantic coast (1995)
 Niger,ne,16946485,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),1267000,Niamey,"French (official), Hausa, Djerma"
 Nigeria,ng,163770669,Sub-Saharan Africa,Lower middle income,Naira (NGN),923770,Abuja,"English (official), Hausa, Yoruba, Ibo, Fulani, and more than 200 others"
 Niue,nu,1624,South Pacific Ocean,,New Zealand Dollars (NZD),262,Alofi,"Niue, Cook Islands, New Zealand, Tonga"
 Norfolk Island,nf,2169,Pacific Ocean ,,Australian Dollars (AUD),35,Kingston,"Norfuk, English"
 Northern Mariana Islands,mp,53234,East Asia & Pacific,High income,United States Dollar (USD),460,Saipan,"Carolinian, English, Chamorro"
-Norway,no,4953088,Europe & Central Asia,High income: OECD,Norwegian Krone (NOK),385178,Oslo,"Bokm√•l Norwegian, Nynorsk Norwegian (both official); small Sami- and Finnish-speaking minorities (Sami is official in six municipalities)"
+Norway,no,4953088,Europe & Central Asia,High income: OECD,Norwegian Krone (NOK),385178,Oslo,"Bokm√•l Norwegian, Nynorsk Norwegian (both official) small Sami- and Finnish-speaking minorities (Sami is official in six municipalities)"
 Oland Islands,ax,29489,Baltic Sea,,Euro (‎EUR‎),1342,Mariehamn,Swedish
 Oman,om,3210003,Middle East & North Africa,High income,Sul Rial (OMR),309500,Muscat,"Arabic (official), English, Baluchi, Urdu, Indian dialects"
-Pakistan,pk,173669648,South Asia,Lower middle income,Rupee (PKR),796100,Islamabad,"Urdu 8%, English (both official); Punjabi 48%, Sindhi 12%, Siraiki (a Punjabi variant) 10%, Pashtu 8%, Balochi 3%, Hindko 2%, Brahui 1%, Burushaski, and others 8%"
+Pakistan,pk,173669648,South Asia,Lower middle income,Rupee (PKR),796100,Islamabad,"Urdu 8%, English (both official) Punjabi 48%, Sindhi 12%, Siraiki (a Punjabi variant) 10%, Pashtu 8%, Balochi 3%, Hindko 2%, Brahui 1%, Burushaski, and others 8%"
 Palau,pw,20606,East Asia & Pacific,Upper middle income,United States Dollar (USD),460,Ngerulmud,"Palauan 64.7%, English 9.4%, Sonsoralese, Tobi, Angaur (each official on some islands), Filipino 13.5%, Chinese 5.7%, Carolinian 1.5%, Japanese 1.5%, other Asian 2.3%, other languages 1.5% (2000)"
 Palestine,ps,4817000,Mediterranean Sea & Jordan River,,Israeli new shekel & Egyptian pound & Palestine pound & Jordanian dinar,6221,Jerusalem,Arabic
 Panama,pa,3681979,Latin America & Caribbean,Upper middle income,Balboa (PAB),75420,Panama City,"Spanish (official), English 14%, many bilingual"
-Papua New Guinea,pg,7001172,East Asia & Pacific,Lower middle income,Kina (PGK),462840,Port Moresby,"Tok Pisin (Melanesian Pidgin, the lingua franca), Hiri Motu (in Papua region), English 1%‚Äì2%; 715 indigenous languages"
+Papua New Guinea,pg,7001172,East Asia & Pacific,Lower middle income,Kina (PGK),462840,Port Moresby,"Tok Pisin (Melanesian Pidgin, the lingua franca), Hiri Motu (in Papua region), English 1%‚Äì2% 715 indigenous languages"
 Paraguay,py,6293763,Latin America & Caribbean,Lower middle income,Guarani (PYG),406752,Asuncion,"Spanish, Guaran√≠ (both official)"
-Peru,pe,29759891,Latin America & Caribbean,Upper middle income,Nuevo Sol (PEN),1285220,Lima,"Spanish, Qu√©chua (both official); Aymara; many minor Amazonian languages"
-Philippines,ph,94501233,East Asia & Pacific,Lower middle income,Peso (PHP),300000,Manila,"Filipino (based on Tagalog), English (both official); eight major dialects: Tagalog, Cebuano, Ilocano, Hiligaynon or Ilonggo, Bicol, Waray, Pampango, and Pangasinense"
+Peru,pe,29759891,Latin America & Caribbean,Upper middle income,Nuevo Sol (PEN),1285220,Lima,"Spanish, Qu√©chua (both official) Aymara many minor Amazonian languages"
+Philippines,ph,94501233,East Asia & Pacific,Lower middle income,Peso (PHP),300000,Manila,"Filipino (based on Tagalog), English (both official) eight major dialects: Tagalog, Cebuano, Ilocano, Hiligaynon or Ilonggo, Bicol, Waray, Pampango, and Pangasinense"
 Pitcairn,pn,50,Southern Pacific Ocean,,New Zealand Dollars (NZD),47,Adamstown,"Pitkern, English"
 Poland,pl,38063255,Europe & Central Asia,High income: OECD,Zloty (PLN),312680,Warsaw,Polish 98% (2002)
 Portugal,pt,10557560,Europe & Central Asia,High income: OECD,Euros (EUR),92225,Lisbon,"Portuguese (official), Mirandese (official, but locally used)"
 Puerto Rico,pr,3678736,Latin America & Caribbean,High income,United States Dollar (USD),8870,San Juan,"Spanish, English,  American English"
-Qatar,qa,1905437,Middle East & North Africa,High income,Rial (QAR),11610,Doha,Arabic (official); English a common second language
+Qatar,qa,1905437,Middle East & North Africa,High income,Rial (QAR),11610,Doha,Arabic (official) English a common second language
 Reunion,re,843617,Indian Ocean,,Euros (EUR),2517,Saint-Denis,French
-Romania,ro,20147528,Europe & Central Asia,Upper middle income,Leu (RON),238390,Bucharest,"Moldovan (official; virtually the same as Romanian), Russian, Gagauz (a Turkish dialect)"
+Romania,ro,20147528,Europe & Central Asia,Upper middle income,Leu (RON),238390,Bucharest,"Moldovan (official virtually the same as Romanian), Russian, Gagauz (a Turkish dialect)"
 Russian Federation,ru,142960868,Europe & Central Asia,Upper middle income,Ruble (RUB),17098250,Moscow,"Russian, Azerbaijani, Chuvash, Ukrainian, Tatar, Tuvin"
-Rwanda,rw,10556429,Sub-Saharan Africa,Low income,Rwanda Franc (RWF),26340,Kigali,"Kinyarwanda, French, and English (all official); Kiswahili in commercial centers"
+Rwanda,rw,10556429,Sub-Saharan Africa,Low income,Rwanda Franc (RWF),26340,Kigali,"Kinyarwanda, French, and English (all official) Kiswahili in commercial centers"
 Saint Barthelemy,bl,9625,Leeward Islands & Caribbean Sea,,Euro (EUR),25,Gustavia & Saint Barthélemy,French
 Saint Helena,sh,4534,Atlantic Ocean,,Saint Helena pound (GBP),413,Jamestown,English
 Saint Kitts and Nevis,kn,54821,Caribbean,High income,Eastern Caribbean dollar (XCD),261,Basseterre,English
@@ -194,7 +194,7 @@ Samoa,ws,55316,East Asia & Pacific,Upper middle income,Euros (EUR),200,Pago Pago
 San Marino,sm,30938,Europe & Central Asia,High income,Euros (EUR),60,San Marino,Italian
 Sao Tome and Principe,st,174646,Sub-Saharan Africa,Lower middle income,Dobra (STD),960,São Tomé,Portuguese
 Saudi Arabia,sa,28788438,Middle East & North Africa,High income,Riyal (SAR),2149690,Riyadh,Arabic
-Senegal,sn,13357003,Sub-Saharan Africa,Lower middle income,CFA Franc BCEAO (XOF),196710,Dakar,"French (official); Wolof, Pulaar, Jola, Mandinka"
+Senegal,sn,13357003,Sub-Saharan Africa,Lower middle income,CFA Franc BCEAO (XOF),196710,Dakar,"French (official) Wolof, Pulaar, Jola, Mandinka"
 Serbia,rs,7234099,Europe & Central Asia,Upper middle income,Serbian dinar (RSD),88360,Belgrade,"Bosnian, Croatian, Serbian"
 Seychelles,sc,87441,Sub-Saharan Africa,Upper middle income,Rupee (SCR),460,Victoria,"Seselwa Creole 92%, English 5%, French (all official) (2002)"
 Sierra Leone,sl,5908908,Sub-Saharan Africa,Low income,Leone (SLL),72300,Freetown,"English (official), Mende (southern vernacular), Temne (northern vernacular), Krio (lingua franca)"
@@ -207,27 +207,27 @@ Somalia,so,9806670,Sub-Saharan Africa,Low income,Shilling (SOS),637660,Mogadishu
 South Africa,za,51549958.1,Sub-Saharan Africa,Upper middle income,Rand (ZAR),1219090,Pretoria,"IsiZulu 23.8%, IsiXhosa 17.6%, Afrikaans 13.3%, Sepedi 9.4%, English 8.2%, Setswana 8.2%, Sesotho 7.9%, Xitsonga 4.4%, other 7.2%"
 South Georgia and the South Sandwich Islands,gs,30,Sub-Antarctic,,Sterling (GBP),3903,Grytviken,English
 South Sudan,ss,10510122,Sub-Saharan Africa,Not classified,South Sudanese pound,644330,Juba,"English (official), Arabic (includes Juba and Sudanese variants) (official), regional languages include Dinka, Nuer, Bari, Zande, Shilluk"
-Spain,es,46742697,Europe & Central Asia,High income: OECD,Euros (EUR),505940,Madrid,"Castilian Spanish 74% (official nationwide); Catalan 17%, Galician 7%, Basque 2% (each official regionally)"
-Sri Lanka,lk,20270000,South Asia,Lower middle income,Rupee (LKR),65610,Sri Jayawardenapura Kotte,"Sinhala 74% (official and national), Tamil 18% (national), other 8%; English is commonly used in government and spoken competently by about 10%"
-Sudan,sd,36918193,Sub-Saharan Africa,Lower middle income,Dinar (SDG),1879358,Juba,French (official); native African (Sudanic) languages 90%
+Spain,es,46742697,Europe & Central Asia,High income: OECD,Euros (EUR),505940,Madrid,"Castilian Spanish 74% (official nationwide) Catalan 17%, Galician 7%, Basque 2% (each official regionally)"
+Sri Lanka,lk,20270000,South Asia,Lower middle income,Rupee (LKR),65610,Sri Jayawardenapura Kotte,"Sinhala 74% (official and national), Tamil 18% (national), other 8% English is commonly used in government and spoken competently by about 10%"
+Sudan,sd,36918193,Sub-Saharan Africa,Lower middle income,Dinar (SDG),1879358,Juba,French (official) native African (Sudanic) languages 90%
 Suriname,sr,523439,Latin America & Caribbean,Upper middle income,Surinamese Guilder (SRD),163820,Paramaribo,"Dutch (official), Surinamese (lingua franca), English widely spoken, Hindustani, Javanese"
 Svalbard and Jan Mayen,sj,0,Arctic Ocean,N/A,Norwegian Krone (NOK),61023,Longyearbyen,Norwegian
 Swaziland,sz,1212458,Sub-Saharan Africa,Lower middle income,Lilangeni (SZL),17360,Mbabane,"English, siSwati (both official)"
 Sweden,se,9449213,Europe & Central Asia,High income: OECD,Krona (SEK),447420,Stockholm,"Swedish, small Sami- and Finnish-speaking minorities"
-Switzerland,ch,7912398,Europe & Central Asia,High income: OECD,Swiss Franc (CHF),41290,Bern,"German 64%, French 20%, Italian 7% (all official); Romansch 0.5% (national)"
+Switzerland,ch,7912398,Europe & Central Asia,High income: OECD,Swiss Franc (CHF),41290,Bern,"German 64%, French 20%, Italian 7% (all official) Romansch 0.5% (national)"
 Syrian Arab Republic,sy,20501167,Middle East & North Africa,Lower middle income,Syrian Pound (SYP),185180,Damascus,"Arabic, Modern Standard Arabic"
 Taiwan,tw,23570000,East Asia,,Dollar (TWD),35980,Taipei,"Standard Chinese (Mandarin/Putonghua), Yue (Cantonese), Wu (Shanghaiese), Minbei (Fuzhou), Minnan (Hokkien-Taiwanese), Xiang, Gan, Hakka dialects, minority languages"
 Tajikistan,tj,7753925,Europe & Central Asia,Low income,Tajikistan Ruble (TJS),141376,Dushanbe,"Tajik (official), Russian widely used in government and business"
-Tanzania,tz,47122998,Sub-Saharan Africa,Low income,Shilling (TZS),947300,Dodoma,"Swahili, English (both official); Arabic; many local languages"
+Tanzania,tz,47122998,Sub-Saharan Africa,Low income,Shilling (TZS),947300,Dodoma,"Swahili, English (both official) Arabic many local languages"
 Thailand,th,66902958,East Asia & Pacific,Upper middle income,Baht (THB),513120,Bangkok,"Thai (Siamese), English (secondary language of the elite), ethnic and regional dialects"
 Timor-Leste,tl,1120392,East Asia & Pacific,Lower middle income,United States Dollar (USD) & East Timor centavo coins & Indonesian rupiah,14870,Dili,"Portuguese, Tetun"
-Togo,tg,6566179,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),56790,Lome,"French (official, commerce); Ew√©, Mina (south); Kaby√©, Dagomba (north); and many dialects"
+Togo,tg,6566179,Sub-Saharan Africa,Low income,CFA Franc BCEAO (XOF),56790,Lome,"French (official, commerce) Ew√©, Mina (south) Kaby√©, Dagomba (north) and many dialects"
 Tokelau,tk,1499,South Pacific Ocean,,New Zealand Dollars (NZD),10,Atafu & Tokelau,"Tokelau, English"
 Tonga,to,104392,East Asia & Pacific,Lower middle income,Pa‚Äö√†√∂‚àö√òanga (TOP),750,Nukuʻalofa,"Tongan (an Austronesian language), English"
 Trinidad and Tobago,tt,1334790,Latin America & Caribbean,High income,Trinidad and Tobago Dollar (TTD),5130,Port of Spain,"English (official), Hindi, French, Spanish, Chinese"
 Tunisia,tn,10673800,Middle East & North Africa,Upper middle income,Tunisian Dinar (TND),163610,Tunis,"Arabic (official, commerce), French (commerce)"
 Turkey,tr,73517002,Europe & Central Asia,Upper middle income,Lira (TRY),785350,Ankara,"Turkish (official), Kurdish, Dimli, Azeri, Kabardian"
-Turkmenistan,tm,5106672,Europe & Central Asia,Lower middle income,Manat (TMT),488100,Ashgabat,"Turkmen 72%; Russian 12%; Uzbek 9%, other 7%"
+Turkmenistan,tm,5106672,Europe & Central Asia,Lower middle income,Manat (TMT),488100,Ashgabat,"Turkmen 72% Russian 12% Uzbek 9%, other 7%"
 Turks and Caicos Islands,tc,31727,Latin America & Caribbean,High income,USD (USD),950,Cockburn Town,English
 Tuvalu,tv,9844,East Asia & Pacific,Lower middle income,Australian Dollars (AUD),30,Funafuti,"Tuvaluan, English, Samoan, Kiribati (on the island of Nui)"
 Uganda,ug,34260342,Sub-Saharan Africa,Low income,Shilling (UGX),241550,Kampala,"English (official), Ganda or Luganda, other Niger-Congo languages, Nilo-Saharan languages, Swahili, Arabic"
@@ -238,7 +238,7 @@ United States of America,us,325700000,North America,High income,United States Do
 United States Minor Outlying Islands,um,300,Pacific Ocean ,,United States Dollar  (USD),35,Washington D.C.,English
 Uruguay,uy,3385610,Latin America & Caribbean,Upper middle income,Peso (UYU),176220,Montevideo,"Spanish, Portunol, or Brazilero"
 Uzbekistan,uz,29339400,Europe & Central Asia,Lower middle income,Som (UZS),447400,Tashkent,"Uzbek 74.3%, Russian 14.2%, Tajik 4.4%, other 7.1%"
-Vanuatu,vu,241876,East Asia & Pacific,Lower middle income,Vatu (VUV),12190,Port Vila,"Bislama 23% (a Melanesian pidgin English), English 2%, French 1% (all 3 official); more than 100 local languages 73%"
+Vanuatu,vu,241876,East Asia & Pacific,Lower middle income,Vatu (VUV),12190,Port Vila,"Bislama 23% (a Melanesian pidgin English), English 2%, French 1% (all 3 official) more than 100 local languages 73%"
 Venezuela (Bolivarian Republic of),ve,31570000,South America,Upper middle income,Venezuelan bolívar (VEF),916444,Caracas,Spanish
 Viet Nam,vn,92700000,Gulf of Thailand,Lower middle income,Vietnamese dong (VND),331211,Hanoi,Vietnamese
 Virgin Islands (British),vg,30661,Lesser Antilles,,United States Dollar  (USD),153,Road Town,English
@@ -246,5 +246,5 @@ Virgin Islands (U.S.),vi,105784,Latin America & Caribbean,High income,United Sta
 Wallis and Futuna,wf,11899,South Pacific,,CFP Franc (XPF),143,Mata-Utu,French
 Western Sahara,eh,513000,North Africa,,Dirham (MAD),266000,El-Aaiun and Tifariti,"Hassaniya Arabic, Moroccan Arabic"
 Yemen,ye,24234940,Middle East & North Africa,Lower middle income,Rial (YER),527970,Sana'a,Arabic
-Zambia,zm,14343526,Sub-Saharan Africa,Lower middle income,Kwacha (ZMK),752610,Lusaka,"English (official); major vernaculars: Bemba, Kaonda, Lozi, Lunda, Luvale, Nyanja, Tonga; about 70 other indigenous languages"
+Zambia,zm,14343526,Sub-Saharan Africa,Lower middle income,Kwacha (ZMK),752610,Lusaka,"English (official) major vernaculars: Bemba, Kaonda, Lozi, Lunda, Luvale, Nyanja, Tonga about 70 other indigenous languages"
 Zimbab,zw,14255592,Sub-Saharan Africa,Low income,Zimbabwe Dollar (ZWD),390760,Harare,"English (official), Shona, Ndebele (Sindebele), numerous minor tribal dialects"
