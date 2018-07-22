@@ -83,7 +83,6 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Camera" image="camera" id="acW-dT-cKf"/>
-                    <navigationItem key="navigationItem" id="ixQ-Cg-IPl"/>
                     <connections>
                         <outlet property="detectLabel" destination="AXz-w7-Yeb" id="z00-zt-Tru"/>
                         <outlet property="knowMorebuttonSetProp" destination="1QR-0G-Xjt" id="xnX-Qc-Ssw"/>
@@ -445,11 +444,11 @@
             </objects>
             <point key="canvasLocation" x="1437.5999999999999" y="801.94902548725645"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Know Your Flags-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="r2o-16-d76"/>
+                    <navigationItem key="navigationItem" title="Know Your Flags" id="r2o-16-d76"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>

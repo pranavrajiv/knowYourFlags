@@ -53,7 +53,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         
         
-
+        //setting properties for select image button
         selectImage.sizeToFit()
         selectImage.layer.cornerRadius =  10
         selectImage.clipsToBounds = true
