@@ -24,6 +24,9 @@ var predictionLabel = "India"
 
 class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
     
+    //select an image button
+    @IBOutlet weak var selectImage: UIButton!
+    
     //the picture taken
     @IBOutlet weak var picTaken: UIImageView!
     
@@ -47,6 +50,19 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+
+        selectImage.sizeToFit()
+        selectImage.layer.cornerRadius =  10
+        selectImage.clipsToBounds = true
+        selectImage.titleLabel!.lineBreakMode = .byWordWrapping
+        selectImage.titleLabel!.numberOfLines = 0
+        selectImage.titleLabel!.textAlignment = .center
+        
+        
+        
         
         //stores data from the CSV file about all the countries
         var data = readDataFromCSV(fileName: "countries", fileType: "csv")
@@ -148,11 +164,11 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]) {
         dismiss(animated: true, completion: nil)
   
-       // let url = URL(string: "file:///Users/pranav/Desktop/IMG_5440.JPG")
-       // let data = try? Data(contentsOf: url!)
-        
+        // let url = URL(string: "file:///Users/pranav/Desktop/IMG_5440.JPG")
+        // let data = try? Data(contentsOf: url!)
         //let image = UIImage(data : data!)
-      
+        
+        
         guard let image = info["UIImagePickerControllerOriginalImage"] as? UIImage else {
           return
         }
@@ -197,7 +213,6 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         knowMorebuttonSetProp.backgroundColor = .yellow
         
         knowMorebuttonSetProp.setTitle("  Want to know more about \(flags[indexOfFlag]) ?  ", for: .normal)
-        
         knowMorebuttonSetProp.sizeToFit()
         knowMorebuttonSetProp.layer.cornerRadius =  10
         knowMorebuttonSetProp.clipsToBounds = true

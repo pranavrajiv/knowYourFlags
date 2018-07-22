@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewf-lg-v2Y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewf-lg-v2Y">
                                 <rect key="frame" x="0.0" y="39" width="375" height="628"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Know Your Flags">
@@ -35,6 +34,13 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ewf-lg-v2Y" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3BL-RW-sHI"/>
+                            <constraint firstItem="ewf-lg-v2Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="ASB-lM-sf2"/>
+                            <constraint firstItem="ewf-lg-v2Y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Lb5-41-Kd6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ewf-lg-v2Y" secondAttribute="trailing" id="kBd-1h-QgQ"/>
+                            <constraint firstItem="ewf-lg-v2Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="urT-pp-tj1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
